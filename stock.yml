@@ -1,0 +1,71 @@
+# ---
+
+boxes:
+  - box:
+      id: 0
+      cells:
+        - cell:
+            id: 0
+            contents:
+              - "Box01"
+  - box:
+      id: 1
+      cells:
+        - cell:
+            id: 0
+            contents:
+              - "fastener - washer - flat - ss316 - s=4,su=mm - qty - d - 73"
+        - cell:
+            id: 1
+            contents:
+              - "fastener - washer - spring - ss316 - s=4,su=mm - qty - d- 145"
+        - cell:
+            id: 2
+            contents:
+              - "fastener - washer - flat - ss316 - s=5,su=mm - qty - d- 220"
+        - cell:
+            id: 3
+            contents:
+              - "fastener - washer - flat - brass - s=4,su=mm - qty - d- 3"
+        - cell:
+            id: 4
+            contents:
+              - "fastener - screw - phillips + pan head - ss304 - s=4,su=G,l=3/8,lu=inch - qty - d - 138"
+        - cell:
+            id: 5
+            contents:
+              - "fastener - washer - flat - brass - s=3,su=mm - qty - d - 3"
+              - "fastener - washer - flat - brass - s=5,su=mm - qty - d - 3"
+        - cell:
+            id: 6
+            contents:
+              - "fastener - screw - cscs - ss304 - s=3,su=mm,l=8,lu=mm - qty - d - 145"
+        - cell:
+            id: 7
+            contents:
+              - "fastener - nut - nylock - ss316 - s=4,su=mm - qty - d - 66"
+        - cell:
+            id: 8
+            contents:
+              - "fastener - washer - spring - ss316 - s=3,su=mm - qty - d - 187"
+        - cell:
+            id: 9
+            contents:
+              - "fastener - nut - nylock - ss316 - s=5,su=mm - qty - d- 104"
+        - cell:
+            id: 10
+            contents:
+              - "fastener - nut - nylock - ss316 - s=5,su=mm - qty - d- 32"
+        - cell:
+            id: 11
+            contents:
+              - "fastener - washer - flat - nylon + white - s=4,su=mm - qty - d - 1"
+        - cell:
+            id: 12
+            contents:
+              - "fastener - washer - flat - nylon + white - s=3.5,su=mm - qty - d - 3"
+        - cell:
+            id: 13
+            contents:
+              - "fastener - screw - cscs - ss304 - s=4,su=mm,l=8,lu=mm - qty - d - 6"
+              
