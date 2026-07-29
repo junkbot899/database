@@ -1,71 +1,240 @@
 # ---
 
-boxes:
-  - box:
+locations:
+  - location:
       id: 0
-      cells:
-        - cell:
-            id: 0
-            contents:
-              - "Box01"
-  - box:
-      id: 1
-      cells:
-        - cell:
-            id: 0
-            contents:
-              - "fastener - washer - flat - ss316 - s=4,su=mm - qty - d - 73"
-        - cell:
+      description: 'storage crate'
+      contents:
+        - location:
             id: 1
-            contents:
-              - "fastener - washer - spring - ss316 - s=4,su=mm - qty - d- 145"
-        - cell:
+
+  - location:
+      id: 1
+      description: 'box - cells x 14'
+      contents:
+        - location:
             id: 2
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - washer - flat - ss316 - s=5,su=mm - qty - d- 220"
-        - cell:
+              - item: "fastener - washer - flat - ss316 - s=4,su=mm - qty - d - 73"
+        - location:
             id: 3
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - washer - flat - brass - s=4,su=mm - qty - d- 3"
-        - cell:
+              - item: "fastener - washer - spring - ss316 - s=4,su=mm - qty - d- 145"
+        - location:
             id: 4
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - screw - phillips + pan head - ss304 - s=4,su=G,l=3/8,lu=inch - qty - d - 138"
-        - cell:
+              - item: "fastener - washer - flat - ss316 - s=5,su=mm - qty - d- 220"
+        - location:
             id: 5
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - washer - flat - brass - s=3,su=mm - qty - d - 3"
-              - "fastener - washer - flat - brass - s=5,su=mm - qty - d - 3"
-        - cell:
+              - item: "fastener - washer - flat - brass - s=4,su=mm - qty - d- 3"
+        - location:
             id: 6
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - screw - cscs - ss304 - s=3,su=mm,l=8,lu=mm - qty - d - 145"
-        - cell:
+              - item: "fastener - screw - phillips + pan head - ss304 - s=4,su=G,l=3/8,lu=inch - qty - d - 138"
+        - location:
             id: 7
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - nut - nylock - ss316 - s=4,su=mm - qty - d - 66"
-        - cell:
+              - item: "fastener - washer - flat - brass - s=3,su=mm - qty - d - 3"
+              - item: "fastener - washer - flat - brass - s=5,su=mm - qty - d - 3"
+        - location:
             id: 8
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - washer - spring - ss316 - s=3,su=mm - qty - d - 187"
-        - cell:
+              - item: "fastener - screw - cscs - ss304 - s=3,su=mm,l=8,lu=mm - qty - d - 145"
+        - location:
             id: 9
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - nut - nylock - ss316 - s=5,su=mm - qty - d- 104"
-        - cell:
+              - item: "fastener - nut - nylock - ss316 - s=4,su=mm - qty - d - 66"
+        - location:
             id: 10
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - nut - nylock - ss316 - s=5,su=mm - qty - d- 32"
-        - cell:
+              - item: "fastener - washer - spring - ss316 - s=3,su=mm - qty - d - 187"
+        - location:
             id: 11
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - washer - flat - nylon + white - s=4,su=mm - qty - d - 1"
-        - cell:
+              - item: "fastener - nut - nylock - ss316 - s=5,su=mm - qty - d- 104"
+        - location:
             id: 12
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - washer - flat - nylon + white - s=3.5,su=mm - qty - d - 3"
-        - cell:
+              - item: "fastener - nut - nylock - ss316 - s=5,su=mm - qty - d- 32"
+        - location:
             id: 13
+            description: 'box - cells x 14 - cell x1'
             contents:
-              - "fastener - screw - cscs - ss304 - s=4,su=mm,l=8,lu=mm - qty - d - 6"
-              
+              - item: "fastener - washer - flat - nylon + white - s=4,su=mm - qty - d - 1"
+        - location:
+            id: 14
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - washer - flat - nylon + white - s=3.5,su=mm - qty - d - 3"
+        - location:
+            id: 15
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - screw - cscs - ss304 - s=4,su=mm,l=8,lu=mm - qty - d - 6"
+
+  - location:
+      id: 16
+      description: 'box - cells x 14'
+      contents:
+        - location:
+            id: 17
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - crimp - cable splice - copper + tinned - d=2,du=mm,l=13.4,lu=mm,w=10.8,wu=mm,h=6.3,hu=mm - qty - d - 2"
+        - location:
+            id: 18
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - fascia - traffic loop emulator - fibreglass + pcb - l=41.5,lu=mm,w=31.5=wu=mm,h=1.5,hu=mm - qty - d - 6"
+        - location:
+            id: 19
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - screw - shcs - ss316 - s=3,su=mm,l=8,lu=mm - qty - d - 9"
+        - location:
+            id: 20
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - screw - cscs - ss316 - s=3,su=mm,l=8,lu=mm - qty - d - 35"
+        - location:
+            id: 21
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - heat sink - adhesive mount - aluminium + anodised + black - l=8.8,lu=mm,w=8.8,wu=mm,h=4.9,hu=mm - qty - d - 10"
+        - location:
+            id: 22
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - washer - curved - ss304 - s=6,su=mm - qty - d - 11"
+        - location:
+            id: 23
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - washer - flat - nylon + white - s=6,su=mm - qty - d - 11"
+        - location:
+            id: 24
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - eyelet - cable - ss - s=10,su=mm - qty - d - 18"
+        - location:
+            id: 25
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - null
+        - location:
+            id: 26
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - accessory - toggle switch - mixed - s=NA,su=NA - qty - d - NA"
+        - location:
+            id: 27
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - crimp - lug + cable - copper + tinned - s=8,su=mm,d=4,du=mm - qty - d - 7"
+        - location:
+            id: 28
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - crimp - bootlace + grey - copper + tinned - s=2.5,su=mm - qty - d - 65"
+        - location:
+            id: 29
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - crimp - bootlace + black - copper + tinned - s=1.5,su=mm - qty - d - 86"
+        - location:
+            id: 30
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - crimp - bootlace + blue - copper + tinned - s=0.75,su=mm - qty - d - 31"
+
+  - location:
+      id: 31
+      description: 'box - cells x 14'
+      contents:
+        - location:
+            id: 32
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - spacer - round + non-threaded - plastic + black - id=3.5,idu=mm,od=7,odu=mm,t=5.1,tu=mm - qty - d - 67"
+        - location:
+            id: 33
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - standoff - hex + threaded - brass + tinned - s=5.5,su=mm,th=3,thu=mm,h=8,hu=mm - qty - d - 12"
+        - location:
+            id: 34
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - ball bearing - loose - metal - d=3,du=mm - qty - d - 120"
+        - location:
+            id: 35
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - screw - pan-head + slotted - ss304 - th=4,thu=mm,l=6,lu=mm - qty - d - 10"
+        - location:
+            id: 36
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - heat sink - adhesive mount - aluminium + anodised + black - l=8.8,lu=mm,w=8.8,wu=mm,h=4.9,hu=mm - qty - d - 10"
+        - location:
+            id: 22
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - washer - curved - ss304 - s=6,su=mm - qty - d - 11"
+        - location:
+            id: 23
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - washer - flat - nylon + white - s=6,su=mm - qty - d - 11"
+        - location:
+            id: 24
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "fastener - eyelet - cable - ss - s=10,su=mm - qty - d - 18"
+        - location:
+            id: 25
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - null
+        - location:
+            id: 26
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - accessory - toggle switch - mixed - s=NA,su=NA - qty - d - NA"
+        - location:
+            id: 27
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - crimp - lug + cable - copper + tinned - s=8,su=mm,d=4,du=mm - qty - d - 7"
+        - location:
+            id: 28
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - crimp - bootlace + grey - copper + tinned - s=2.5,su=mm - qty - d - 65"
+        - location:
+            id: 29
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - crimp - bootlace + black - copper + tinned - s=1.5,su=mm - qty - d - 86"
+        - location:
+            id: 30
+            description: 'box - cells x 14 - cell x1'
+            contents:
+              - item: "component - crimp - bootlace + blue - copper + tinned - s=0.75,su=mm - qty - d - 31"
+
+
+
+
+
