@@ -22,7 +22,7 @@
 									"flat"
 								],
 								"material": [
-									"ss316"
+									"ss-316"
 								],
 								"measurement": {
 									"diameterInternal": { "value": 4, "unit": "mm" },
@@ -44,7 +44,7 @@
 									"spring"
 								],
 								"material": [
-									"ss316"
+									"ss-316"
 								],
 								"measurement": {
 									"diameterInternal": { "value": 4, "unit": "mm" },
@@ -66,7 +66,7 @@
 									"flat"
 								],
 								"material": [
-									"ss316"
+									"ss-316"
 								],
 								"measurement": {
 									"diameterInternal": { "value": 5, "unit": "mm" },
@@ -111,7 +111,7 @@
 									"phillips"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 4, "unit": "G" },
@@ -171,7 +171,7 @@
 									"cscs"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
@@ -194,7 +194,7 @@
 									"nylock"
 								],
 								"material": [
-									"ss316"
+									"ss-316"
 								],
 								"measurement": {
 									"thread": { "value": 4, "unit": "mm" },
@@ -216,7 +216,7 @@
 									"spring"
 								],
 								"material": [
-									"ss316"
+									"ss-316"
 								],
 								"measurement": {
 									"diameterInternal": { "value": 3, "unit": "mm" },
@@ -238,7 +238,7 @@
 									"nyloc"
 								],
 								"material": [
-									"ss316"
+									"ss-316"
 								],
 								"measurement": {
 									"thread": { "value": 5, "unit": "mm" },
@@ -260,7 +260,7 @@
 									"nyloc"
 								],
 								"material": [
-									"ss316"
+									"ss-316"
 								],
 								"measurement": {
 									"thread": { "value": 5, "unit": "mm" },
@@ -326,7 +326,7 @@
 									"cscs"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 4, "unit": "mm" },
@@ -406,7 +406,7 @@
 									"shcs"
 								],
 								"material": [
-									"ss316"
+									"ss-316"
 								],
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
@@ -429,7 +429,7 @@
 									"cscs"
 								],
 								"material": [
-									"ss316"
+									"ss-316"
 								],
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
@@ -476,7 +476,7 @@
 									"curved"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"diameterInternal": { "value": 6, "unit": "mm" },
@@ -561,9 +561,10 @@
 							{
 								"class": "item",
 								"kind": "component",
-								"type": "jumper",
+								"type": "connector",
 								"variant": [
-									"header",
+									"jumper",
+						                        "header",
 									"with-handle"
 								],
 								"material": [
@@ -585,10 +586,11 @@
 							{
 								"class": "item",
 								"kind": "component",
-								"type": "crimp",
+								"type": "connector",
 								"variant": [
 									"lug",
-									"cable"
+									"cable",
+									"crimp"
 								],
 								"material": [
 									"copper-plated-tin"
@@ -609,9 +611,10 @@
 							{
 								"class": "item",
 								"kind": "component",
-								"type": "crimp",
+								"type": "connector",
 								"variant": [
-									"bootlace"
+									"bootlace",
+									"crimp"
 								],
 								"material": [
 									"copper-plated-tin"
@@ -631,9 +634,10 @@
 							{
 								"class": "item",
 								"kind": "component",
-								"type": "crimp",
+								"type": "connector",
 								"variant": [
-									"bootlace"
+									"bootlace",
+									"crimp"
 								],
 								"material": [
 									"copper-plated-tin"
@@ -653,9 +657,10 @@
 							{
 								"class": "item",
 								"kind": "component",
-								"type": "crimp",
+								"type": "connector",
 								"variant": [
-									"bootlace"
+									"bootlace",
+									"crimp"
 								],
 								"material": [
 									"copper-plated-tin"
@@ -706,11 +711,12 @@
 						"contents": [
 							{
 								"class": "item",
-								"kind": "component",
+								"kind": "fastener",
 								"type": "standoff",
 								"variant": [
 									"hex",
-									"threaded"
+									"threaded",
+									"female-female"
 								],
 								"material": [
 									"brass-plated-tin"
@@ -734,7 +740,7 @@
 								"kind": "component",
 								"type": "bearing",
 								"variant": [
-									"individual-ball"
+									"ball-individual"
 								],
 								"material": [
 									"metal"
@@ -760,7 +766,7 @@
 									"phillips"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 4, "unit": "mm" },
@@ -784,7 +790,7 @@
 									"phillips"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 10, "unit": "G" },
@@ -807,7 +813,7 @@
 									"cscs"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
@@ -857,7 +863,6 @@
 								"kind": "component",
 								"type": "switch",
 								"variant": [
-									"DIP",
 									"dual-inline-package",
 									"2p1t",
 									"smd"
@@ -888,7 +893,6 @@
 								"kind": "component",
 								"type": "switch",
 								"variant": [
-									"DIP",
 									"dual-inline-package",
 									"2p1t",
 									"smd"
@@ -946,9 +950,10 @@
 							{
 								"class": "item",
 								"kind": "component",
-								"type": "jumper",
+								"type": "connector",
 								"variant": [
-									"header"
+									"header",
+									"jumper"
 								],
 								"material": [
 									"copper-plated-tin",
@@ -1053,7 +1058,7 @@
 									"grub"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
@@ -1076,7 +1081,7 @@
 									"grub"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 4, "unit": "mm" },
@@ -1122,7 +1127,7 @@
 									"shcs"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
@@ -1145,7 +1150,7 @@
 									"shcs"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
@@ -1170,7 +1175,7 @@
 									"tamiya-tank-track"
 								],
 								"material": [
-									"ss304"
+									"ss-304"
 								],
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
@@ -1189,12 +1194,13 @@
 							{
 								"class": "item",
 								"kind": "component",
-								"type": "crimp",
+								"type": "connector",
 								"variant": [
 									"jst",
 									"xh",
 									"1p",
-									"female"
+									"female",
+									"crimp"
 								],
 								"material": [
 									"copper-plated-tin"
@@ -1242,198 +1248,936 @@
 								]
 							}
 						]
+					},
+					{
+						"class": "location",
+						"id": 55,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"housing",
+									"jst",
+									"xh",
+									"3p",
+									"female"
+								],
+								"material": [
+									"plastic-white"
+								],
+								"measurement": {
+									"quantity": { "value": 49, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "digikey",
+										"sku": "455-2219-ND"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 56,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"housing",
+									"jst",
+									"xh",
+									"4p",
+									"female"
+								],
+								"material": [
+									"plastic-white"
+								],
+								"measurement": {
+									"quantity": { "value": 50, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "digikey",
+										"sku": "455-2267-ND"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 57,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"jst",
+									"xh",
+									"1p",
+									"female",
+									"crimp"
+								],
+								"material": [
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"size": { "value": "22-28", "unit": "AWG" },
+									"quantity": { "value": 247, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "digikey",
+										"sku": "455-1135-1-ND"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 58,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "tool",
+								"type": "crimp",
+								"variant": [
+									"jst",
+									"xh",
+									"flap-locator"
+								],
+								"material": [
+									"plastic-black",
+									"magnet",
+									"steel-black"
+								],
+								"measurement": {
+									"quantity": { "value": 1, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "digikey",
+										"sku": "455-2708-ND"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 59,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "washer",
+								"variant": [
+									"flat"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"diameterInternal": { "value": 3, "unit": "mm" },
+									"quantity": { "value": 333, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 60,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "nut",
+								"variant": [
+									"nyloc"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"thread": { "value": 3, "unit": "mm" },
+									"quantity": { "value": 90, "unit": "unit" }
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 61,
+				"description": "box - cells x14",
+				"contents": [
+					{
+						"class": "location",
+						"id": 75,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "tool",
+								"type": "crimp",
+								"variant": [
+									"jst",
+									"flap-locator"
+								],
+								"material": [
+									"plastic-black",
+									"magnet",
+									"steel-black"
+								],
+								"measurement": {
+									"quantity": { "value": 2, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 62,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"jst",
+									"ph",
+									"6p",
+									"header"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 10, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "digikey",
+										"sku": "455-1708-ND"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 63,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"jst",
+									"ph",
+									"5p",
+									"header"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 9, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 64,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"jst",
+									"ph",
+									"5p",
+									"degrees-90",
+									"header"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 6, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "820-1501"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 65,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"jst",
+									"ph",
+									"4p",
+									"degrees-90",
+									"header"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 10, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "820-1507"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 66,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"jst",
+									"ph",
+									"3p",
+									"header"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 10, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "digikey",
+										"sku": "455-1705-ND"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 67,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"jst",
+									"ph",
+									"2p",
+									"header"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 10, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "digikey",
+										"sku": "455-1704-ND"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 68,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"jst",
+									"ph",
+									"1p",
+									"female",
+									"crimp"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 88, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "820-1456"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 68,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"jst",
+									"ph",
+									"6p",
+									"female",
+									"header"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 88, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "820-1456"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 69,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"jst",
+									"ph",
+									"6p",
+									"female",
+									"housing"
+								],
+								"material": [
+									"plastic-white"
+								],
+								"measurement": {
+									"quantity": { "value": 10, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "digikey",
+										"sku": "455-1162-ND"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 70,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "screw",
+								"variant": [
+									"phillips",
+									"cscs"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"thread": { "value": 3, "unit": "mm" },
+									"length": { "value": 4, "unit": "mm" },
+									"quantity": { "value": 10, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "500-5117"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 71,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"housing",
+									"jst",
+									"ph",
+									"5p"
+								],
+								"material": [
+									"plastic-white"
+								],
+								"measurement": {
+									"quantity": { "value": 20, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "820-1472"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 72,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"housing",
+									"jst",
+									"ph",
+									"4p"
+								],
+								"material": [
+									"plastic-white"
+								],
+								"measurement": {
+									"quantity": { "value": 9, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "820-1478"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 73,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"housing",
+									"jst",
+									"ph",
+									"3p"
+								],
+								"material": [
+									"plastic-white"
+								],
+								"measurement": {
+									"quantity": { "value": 10, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "digikey",
+										"sku": "455-1126-ND"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 74,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"housing",
+									"jst",
+									"ph",
+									"2p"
+								],
+								"material": [
+									"plastic-white"
+								],
+								"measurement": {
+									"quantity": { "value": 10, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "digikey",
+										"sku": "455-1165-ND"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 76,
+				"description": "box - cells x14",
+				"contents": [
+					{
+						"class": "location",
+						"id": 77,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "screw",
+								"variant": [
+									"cscs",
+									"phillips"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"thread": { "value": 4, "unit": "G" },
+									"length": { "value": "5/8", "unit": "inch" },
+									"quantity": { "value": 83, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 78,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "screw",
+								"variant": [
+									"cscs",
+									"phillips"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"thread": { "value": 4, "unit": "G" },
+									"length": { "value": "5/8", "unit": "inch" },
+									"quantity": { "value": 91, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 79,
+						"description": "box - cells x14 - cell x1",
+						"contents": []
+					},
+					{
+						"class": "location",
+						"id": 80,
+						"description": "box - cells x14 - cell x1",
+						"contents": []
+					},
+					{
+						"class": "location",
+						"id": 81,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "washer",
+								"variant": [
+									"mudguard"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"diameterInternal": { "value": 7.5, "unit": "mm" },
+									"diameterExternal": { "value": 31.6, "unit": "mm" },
+									"thickness": { "value": 1.4, "unit": "mm" },
+									"quantity": { "value": 4, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 82,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "washer",
+								"variant": [
+									"lock-tooth",
+									"external"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"diameterInternal": { "value": 8, "unit": "mm" },
+									"quantity": { "value": 4, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 83,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "washer",
+								"variant": [
+									"spring"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"diameterInternal": { "value": 8, "unit": "mm" },
+									"quantity": { "value": 12, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 84,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "screw",
+								"variant": [
+									"cscs",
+									"phillips"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"thread": { "value": 4, "unit": "G" },
+									"length": { "value": 1, "unit": "inch" },
+									"quantity": { "value": 6, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 85,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "washer",
+								"variant": [
+									"flat"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"diameterInternal": { "value": 4, "unit": "mm" },
+									"quantity": { "value": 49, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 86,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "washer",
+								"variant": [
+									"spring"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"diameterInternal": { "value": 4, "unit": "mm" },
+									"quantity": { "value": 16, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 87,
+						"description": "box - cells x14 - cell x1",
+						"contents": []
+					},
+					{
+						"class": "location",
+						"id": 88,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "nut",
+								"variant": [
+									"nyloc"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"thread": { "value": 6, "unit": "mm" },
+									"quantity": { "value": 4, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 89,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "nut",
+								"variant": [
+									"hex"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"thread": { "value": 8, "unit": "mm" },
+									"quantity": { "value": 9, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 90,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "fastener",
+								"type": "nut",
+								"variant": [
+									"nyloc"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"thread": { "value": 8, "unit": "mm" },
+									"quantity": { "value": 5, "unit": "unit" }
+								}
+							}
+						]
 					}
 				]
 			}
 		]
+	},
+	{
+		"class": "location",
+		"id": 9000,
+		"description": "snap-lock bag - snack size",
+		"contents": [
+			{
+				"class": "item",
+				"kind": "component",
+				"type": "switch",
+				"variant": [
+					"toggle",
+					"accessory"
+				],
+				"material": [
+					"metal",
+					"plastic",
+					"rubber"
+				],
+				"measurement": {
+					"quantity": { "value": "N/A", "unit": "unit" }
+				}
+			}
+		]
 	}
 ]
-        - location:
-            id: 55
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - connector + housing - jst-xh + 3p - qty - d - 49 - vendor - 'digikey' - sku = '455-2219-ND'"
-        - location:
-            id: 56
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - connector + housing - jst-xh + 4p - qty - d - 50 - vendor - 'digikey' - sku = '455-2267-ND'"
-        - location:
-            id: 57
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - crimp - jst-xh + 1p + female - s=22-28,su=AWG - qty - d - 247 - vendor - 'digikey' - sku - '455-1135-1-ND'"
-        - location:
-            id: 58
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "tool - crimp - jst-xh + flap-locator - plastic-black + steel-black + magnet - qty - d - 1 - vendor - 'digikey' - sku - '455-2708-ND'"
-        - location:
-            id: 59
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - washer - flat - ss304 - id=3,idu=mm - qty - d - 333"
-        - location:
-            id: 60
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - nut - nyloc - ss304 - th=3,thu=mm - qty - d - 90"
-  
-  - location:
-      id: 61
-      description: 'box - cells x 14'
-      contents:
-        - location:
-            id: 75
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "tool - crimp - jst-ph-?? + flap-locator - plastic-black + steel-black + magnet - qty - d - 2"
-        - location:
-            id: 62
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - header - jst-ph + 6p - plastic-white + copper-plated-tin - qty - d - 10 - vendor - 'digikey' - sku - '455-1708-ND'"
-        - location:
-            id: 63
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - header - jst-ph + 5p - plastic-white + copper-plated-tin - qty - d - 9 - vendor - '??' - sku - '??'"
-        - location:
-            id: 64
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - header - jst-ph + 5p + 90deg - plastic-white + copper-plated-tin - qty - d - 6 - vendor - 'rs components' - sku - '820-1501'"
-        - location:
-            id: 65
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - header - jst-ph + 4p + 90deg - plastic-white + copper-plated-tin - qty - d - 10 - vendor - 'rs components' - sku - '820-1507'"
-        - location:
-            id: 66
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - header - jst-ph + 3p - plastic-white + copper-plated-tin - qty - d - 10 - vendor - 'digikey' - sku - '455-1705-ND'"
-        - location:
-            id: 67
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - header - jst-ph + 2p - plastic-white + copper-plated-tin - qty - d - 10 - vendor - 'digikey' - sku - '455-1704-ND'"
-        - location:
-            id: 68
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - crimp - jst-ph + 1p + female - qty - d - 88 - vendor - 'rs components' - sku - '820-1456'"
-        - location:
-            id: 69
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - connector + housing - jst-ph + 6p - qty - d - 10 - vendor - 'digikey' - sku = '455-1162-ND'"
-        - location:
-            id: 70
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - screw - cscs + phillips-head - th=3,thu=mm,l=4,lu=mm - qty - d - 14 - vendor - 'rs components' - sku = '500-5117'"
-        - location:
-            id: 71
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - connector + housing - jst-ph + 5p - qty - d - 20 - vendor - 'rs components' - sku = '820-1472'"
-        - location:
-            id: 72
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - connector + housing - jst-ph + 4p - qty - d - 9 - vendor - 'rs components' - sku = '820-1478'"
-        - location:
-            id: 73
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - connector + housing - jst-ph + 3p - qty - d - 10 - vendor - 'digikey' - sku = '455-1126-ND'"
-        - location:
-            id: 74
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "component - connector + housing - jst-ph + 2p - qty - d - 10 - vendor - 'digikey' - sku = '455-1165-ND'"
-  
-  - location:
-      id: 76
-      description: 'box - cells x 14'
-      contents:
-        - location:
-            id: 77
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - screw - cscs + phillips - th=4,thu=G,l=5/8,lu='' - qty - d - 83"
-        - location:
-            id: 78
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - screw - cscs + phillips - th=4,thu=G,l=5/8,lu='' - qty - d - 91"
-        - location:
-            id: 79
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              -
-        - location:
-            id: 80
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              -
-        - location:
-            id: 81
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - washer - ss304 - mudguard - id=7.5,idu=mm,od=31.6,odu=mm,t=1.4,tu=mm - qty - d - 4"
-        - location:
-            id: 82
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - washer - lock-tooth-external - ss304 - id=8,idu=mm - qty - d - 4"
-        - location:
-            id: 83
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - washer - spring - ss304 - id=8,idu=mm - qty - d - 12"
-        - location:
-            id: 84
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - screw - cscs + phillips - th=4,thu=G,l=1,lu='' - qty - d - 6"
-        - location:
-            id: 85
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - washer - flat - ss304 - id=4,idu=mm - qty - d - 49"
-        - location:
-            id: 86
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - washer - spring - ss304 - id=4,idu=mm - qty - d - 16"
-        - location:
-            id: 87
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              -
-        - location:
-            id: 88
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - nut - nyloc - ss304 - th=6,thu=mm - qty - d - 4"
-        - location:
-            id: 89
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - nut - hex - ss304 - th=8,thu=mm - qty - d - 9"
-        - location:
-            id: 90
-            description: 'box - cells x 14 - cell x1'
-            contents:
-              - item: "fastener - nut - nyloc - ss304 - th=8,thu=mm - qty - d - 5"
-- location:
-      id: 9000
-      description: 'snap-lock back - snack size'
-      contents:
-        - item: "component - accessory - toggle switch - mixed - s=NA,su=NA - qty - d - NA"
-
-
-
-
