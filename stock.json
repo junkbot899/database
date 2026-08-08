@@ -2551,6 +2551,355 @@
 						]
 					}
 				]
+			},
+			{
+				"class": "location",
+				"id": 106,
+				"description": "esd bag - large",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "material",
+						"type": "metal",
+						"variant": [
+							"sheet"
+						],
+						"material": [
+							"copper"
+						],
+						"measurement": {
+							"length": { "value": 10.7, "unit": "inch" },
+							"width": { "value": 6, "unit": "inch" },
+							"thickness": { "value": 0.016, "unit": "inch" },
+							"quantity": { "value": 1, "unit": "unit" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "material",
+						"type": "printed-circuit",
+						"variant": [
+							"vero-board"
+						],
+						"material": [
+							"copper",
+							"fibreglass"
+						],
+						"measurement": {
+							"length": { "value": 265, "unit": "mm" },
+							"width": { "value": 94, "unit": "mm" },
+							"thickness": { "value": 1.7, "unit": "mm" },
+							"quantity": { "value": 1, "unit": "unit" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "material",
+						"type": "printed-circuit",
+						"variant": [
+							"matrix-board"
+						],
+						"material": [
+							"copper",
+							"fibreglass"
+						],
+						"measurement": {
+							"length": { "value": 105, "unit": "mm" },
+							"width": { "value": 50, "unit": "mm" },
+							"thickness": { "value": 1.6, "unit": "mm" },
+							"quantity": { "value": 1, "unit": "unit" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "material",
+						"type": "metal",
+						"variant": [
+							"piece",
+							"sheet",
+							"shim"
+						],
+						"material": [
+							"copper"
+						],
+						"measurement": {
+							"length": { "value": 0.6, "unit": "inch" },
+							"width": { "value": 0.6, "unit": "inch" },
+							"thickness": { "value": 0.02, "unit": "inch" },
+							"quantity": { "value": 16, "unit": "unit" }
+						}
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 107,
+				"description": "storage box - clear - medium",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "resistor",
+						"variant": [
+							"potentiometer",
+							"logarithmic"
+						],
+						"material": [
+							"metal",
+							"fibreglass"
+						],
+						"measurement": {
+							"resistance": { "value": 1000, "unit": "ohm" },
+							"lengthShaft": { "value": 38, "unit": "mm" },
+							"diameterShaft": { "value": "1/4", "unit": "inch" },
+							"diameterThread": { "value": 9.4, "unit": "mm" },
+							"heightThread": { "value": 6.4, "unit": "mm" },
+							"diameterBody": { "value": 24, "unit": "mm" },
+							"heightBody": { "value": 10.2, "unit": "mm" },
+							"heightOverall": { "value": 56.88, "unit": "mm" },
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"note": "Mounting hardware missing."
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "resistor",
+						"variant": [
+							"potentiometer",
+							"logarithmic",
+							"guitar-electric"
+						],
+						"material": [
+							"metal",
+							"fibreglass"
+						],
+						"measurement": {
+							"lengthShaft": { "value": "3/8", "unit": "inch" },
+							"diameterShaft": { "value": 6, "unit": "mm" },
+							"diameterThread": { "value": 9.4, "unit": "mm" },
+							"heightThread": { "value": 9.3, "unit": "mm" },
+							"diameterBody": { "value": 15.6, "unit": "mm" },
+							"heightBody": { "value": 8, "unit": "mm" },
+							"heightOverall": { "value": 28.6, "unit": "mm" },
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"note": "Mounting hardware included"
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "spring",
+						"variant": [
+							"helical",
+							"compression"
+						],
+						"material": [
+							"ss"
+						],
+						"measurement": {
+							"length": { "value": 20, "unit": "mm" },
+							"diameter": { "value": 4, "unit": "mm" },
+							"diameterWire": { "value": 0.4, "unit": "mm" },
+							"quantity": { "value": 10, "unit": "unit" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "spring",
+						"variant": [
+							"helical",
+							"compression"
+						],
+						"material": [
+							"ss"
+						],
+						"measurement": {
+							"length": { "value": 15, "unit": "mm" },
+							"diameter": { "value": 4, "unit": "mm" },
+							"diameterWire": { "value": 0.4, "unit": "mm" },
+							"quantity": { "value": 5, "unit": "unit" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "printed-circuit",
+						"variant": [
+							"board",
+							"fender",
+							"stratocaster",
+							"interconnect",
+							"custom"
+						],
+						"material": [
+							"fibreglass",
+							"copper"
+						],
+						"measurement": {
+							"length": { "value": 62, "unit": "mm" },
+							"width": { "value": 25.5, "unit": "mm" },
+							"thickness": { "value": 1.6, "unit": "mm" },
+							"quantity": { "value": 4, "unit": "unit" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "printed-circuit",
+						"variant": [
+							"board",
+							"fender",
+							"stratocaster",
+							"potentiometer",
+							"custom"
+						],
+						"material": [
+							"fibreglass",
+							"copper"
+						],
+						"measurement": {
+							"length": { "value": 24, "unit": "mm" },
+							"width": { "value": 22.5, "unit": "mm" },
+							"thickness": { "value": 1.6, "unit": "mm" },
+							"quantity": { "value": 8, "unit": "unit" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "printed-circuit",
+						"variant": [
+							"board",
+							"fender",
+							"stratocaster",
+							"selector",
+							"switch",
+							"pickup",
+							"custom"
+						],
+						"material": [
+							"fibreglass",
+							"copper"
+						],
+						"measurement": {
+							"length": { "value": 34.2, "unit": "mm" },
+							"width": { "value": 17.1, "unit": "mm" },
+							"thickness": { "value": 1.6, "unit": "mm" },
+							"quantity": { "value": 10, "unit": "unit" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "label",
+						"variant": [
+							"board",
+							"fender",
+							"stratocaster",
+							"pinout",
+							"brother-ql-570",
+							"custom"
+						],
+						"material": [
+							"paper"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 108,
+				"description": "storage box - clear - medium",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "wire",
+						"variant": [
+							"grey",
+							"multi-core"
+						],
+						"material": [
+							"copper",
+							"silicone"
+						],
+						"measurement": {
+							"size": { "value": 24, "unit": "AWG" },
+							"quantity": { "value": 5, "unit": "m" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "wire",
+						"variant": [
+							"black",
+							"multi-core"
+						],
+						"material": [
+							"copper",
+							"pvc"
+						],
+						"measurement": {
+							"size": { "value": 24, "unit": "AWG" },
+							"quantity": { "value": 5, "unit": "m" }
+						}
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 109,
+				"description": "storage box - clear - medium",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "sinker",
+						"variant": [
+							"pointed"
+						],
+						"material": [
+							"lead"
+						],
+						"measurement": {
+							"size": { "value": 24, "unit": "australian-ball-sinker-number" },
+							"quantity": { "value": 2, "unit": "unit" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "sinker",
+						"variant": [
+							"pointed"
+						],
+						"material": [
+							"lead"
+						],
+						"measurement": {
+							"size": { "value": 12, "unit": "australian-ball-sinker-number" },
+							"quantity": { "value": 1, "unit": "m" }
+						}
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "sinker",
+						"variant": [
+							"pointed"
+						],
+						"material": [
+							"lead"
+						],
+						"measurement": {
+							"size": { "value": 6, "unit": "australian-ball-sinker-number" },
+							"quantity": { "value": 4, "unit": "m" }
+						}
+					}
+				]
 			}
 		]
 	},
