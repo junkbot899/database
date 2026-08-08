@@ -107,8 +107,7 @@
 								"kind": "fastener",
 								"type": "screw",
 								"variant": [
-									"pan-head",
-									"phillips"
+									"pan-head"
 								],
 								"material": [
 									"ss-304"
@@ -116,6 +115,7 @@
 								"measurement": {
 									"thread": { "value": 4, "unit": "G" },
 									"length": { "value": "3/8", "unit": "inch" },
+									"tool": { "value": 1, "unit": "phillips" },
 									"quantity": { "value": 138, "unit": "unit" }
 								}
 							}
@@ -176,6 +176,7 @@
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
 									"length": { "value": 8, "unit": "mm" },
+									"tool": { "value": 2, "unit": "mm-hex-internal" },
 									"quantity": { "value": 145, "unit": "unit" }
 								}
 							}
@@ -198,6 +199,7 @@
 								],
 								"measurement": {
 									"thread": { "value": 4, "unit": "mm" },
+									"tool": { "value": 7, "unit": "mm-hex-external" },
 									"quantity": { "value": 66, "unit": "unit" }
 								}
 							}
@@ -242,6 +244,7 @@
 								],
 								"measurement": {
 									"thread": { "value": 5, "unit": "mm" },
+									"tool": { "value": 8, "unit": "mm-hex-external" },
 									"quantity": { "value": 104, "unit": "unit" }
 								}
 							}
@@ -264,6 +267,7 @@
 								],
 								"measurement": {
 									"thread": { "value": 5, "unit": "mm" },
+									"tool": { "value": 8, "unit": "mm-hex-external" },
 									"quantity": { "value": 32, "unit": "unit" }
 								}
 							}
@@ -331,6 +335,7 @@
 								"measurement": {
 									"thread": { "value": 4, "unit": "mm" },
 									"length": { "value": 8, "unit": "mm" },
+									"tool": { "value": 2.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 6, "unit": "unit" }
 								}
 							}
@@ -411,6 +416,7 @@
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
 									"length": { "value": 8, "unit": "mm" },
+									"tool": { "value": 2.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 9, "unit": "unit" }
 								}
 							}
@@ -434,6 +440,7 @@
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
 									"length": { "value": 8, "unit": "mm" },
+									"tool": { "value": 2, "unit": "mm-hex-internal" },
 									"quantity": { "value": 35, "unit": "unit" }
 								}
 							}
@@ -539,8 +546,7 @@
 								"kind": "fastener",
 								"type": "screw",
 								"variant": [
-									"pan-head",
-									"phillips"
+									"pan-head"
 								],
 								"material": [
 									"plastic-clear"
@@ -548,6 +554,7 @@
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
 									"length": { "value": 12, "unit": "mm" },
+									"tool": { "value": 2, "unit": "phillips" },
 									"quantity": { "value": 9, "unit": "unit" }
 								}
 							}
@@ -725,6 +732,7 @@
 									"size": { "value": 5.5, "unit": "mm" },
 									"thread": { "value": 3, "unit": "mm" },
 									"height": { "value": 8, "unit": "mm" },
+									"tool": { "value": 5.5, "unit": "mm-hex-external" },
 									"quantity": { "value": 12, "unit": "unit" }
 								}
 							}
@@ -771,6 +779,7 @@
 								"measurement": {
 									"thread": { "value": 4, "unit": "mm" },
 									"length": { "value": 6, "unit": "mm" },
+									"tool": { "value": 8, "unit": "mm-slot" },
 									"quantity": { "value": 10, "unit": "unit" }
 								}
 							}
@@ -795,6 +804,7 @@
 								"measurement": {
 									"thread": { "value": 10, "unit": "G" },
 									"length": { "value": "5/8", "unit": "inch" },
+									"tool": { "value": 2, "unit": "phillips" },
 									"quantity": { "value": 8, "unit": "unit" }
 								}
 							}
@@ -818,6 +828,7 @@
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
 									"length": { "value": 10, "unit": "mm" },
+									"tool": { "value": 2, "unit": "mm-hex-internal" },
 									"quantity": { "value": 83, "unit": "unit" }
 								}
 							}
@@ -1063,6 +1074,7 @@
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
 									"length": { "value": 5, "unit": "mm" },
+									"tool": { "value": 1.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 27, "unit": "unit" }
 								}
 							}
@@ -1086,6 +1098,7 @@
 								"measurement": {
 									"thread": { "value": 4, "unit": "mm" },
 									"length": { "value": 8, "unit": "mm" },
+									"tool": { "value": 2, "unit": "mm-hex-internal" },
 									"quantity": { "value": 8, "unit": "unit" }
 								}
 							}
@@ -1109,6 +1122,7 @@
 								"measurement": {
 									"thread": { "value": 2, "unit": "mm" },
 									"length": { "value": 8, "unit": "mm" },
+									"tool": { "value": 1.3, "unit": "mm-hex-internal" },
 									"quantity": { "value": 20, "unit": "unit" }
 								}
 							}
@@ -1132,6 +1146,7 @@
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
 									"length": { "value": 10, "unit": "mm" },
+									"tool": { "value": 2.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 87, "unit": "unit" }
 								}
 							}
@@ -1155,6 +1170,7 @@
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
 									"length": { "value": 12, "unit": "mm" },
+									"tool": { "value": 2.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 50, "unit": "unit" }
 								}
 							}
@@ -1181,6 +1197,7 @@
 									"thread": { "value": 3, "unit": "mm" },
 									"threadLength": { "value": 3, "unit": "mm" },
 									"length": { "value": 14, "unit": "mm" },
+									"tool": { "value": 2.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 20, "unit": "unit" }
 								}
 							}
@@ -1413,6 +1430,7 @@
 								],
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
+									"tool": { "value": 5.5, "unit": "mm-hex-external" },
 									"quantity": { "value": 90, "unit": "unit" }
 								}
 							}
@@ -1745,6 +1763,7 @@
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
 									"length": { "value": 4, "unit": "mm" },
+									"tool": { "value": 2, "unit": "phillips" },
 									"quantity": { "value": 10, "unit": "unit" }
 								},
 								"source": [
@@ -1902,6 +1921,7 @@
 								"measurement": {
 									"thread": { "value": 4, "unit": "G" },
 									"length": { "value": "5/8", "unit": "inch" },
+									"tool": { "value": 1, "unit": "phillips" },
 									"quantity": { "value": 83, "unit": "unit" }
 								}
 							}
@@ -1926,6 +1946,7 @@
 								"measurement": {
 									"thread": { "value": 4, "unit": "G" },
 									"length": { "value": "5/8", "unit": "inch" },
+									"tool": { "value": 1, "unit": "phillips" },
 									"quantity": { "value": 91, "unit": "unit" }
 								}
 							}
@@ -2031,6 +2052,7 @@
 								"measurement": {
 									"thread": { "value": 4, "unit": "G" },
 									"length": { "value": 1, "unit": "inch" },
+									"tool": { "value": 1, "unit": "phillips" },
 									"quantity": { "value": 6, "unit": "unit" }
 								}
 							}
@@ -2125,6 +2147,7 @@
 								],
 								"measurement": {
 									"thread": { "value": 8, "unit": "mm" },
+									"tool": { "value": 13, "unit": "mm-hex-external" },
 									"quantity": { "value": 9, "unit": "unit" }
 								}
 							}
@@ -2147,8 +2170,383 @@
 								],
 								"measurement": {
 									"thread": { "value": 8, "unit": "mm" },
+									"tool": { "value": 13, "unit": "mm-hex-external" },
 									"quantity": { "value": 5, "unit": "unit" }
 								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 91,
+				"description": "box - cells x14",
+				"contents": [
+					{
+						"class": "location",
+						"id": 92,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"housing",
+									"2p"
+								],
+								"material": [
+									"plastic-white"
+								],
+								"measurement": {
+									"quantity": { "value": 23, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "476-6760"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 93,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"header",
+									"6p",
+									"degrees-90"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 10, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "512-8507"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 94,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"housing",
+									"3p"
+								],
+								"material": [
+									"plastic-white"
+								],
+								"measurement": {
+									"quantity": { "value": 7, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "476-6776"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 95,
+						"description": "box - cells x14 - cell x1",
+						"contents": []
+					},
+					{
+						"class": "location",
+						"id": 96,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"header",
+									"8p",
+									"degrees-90"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 1, "unit": "unit" }
+								}
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 97,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"housing",
+									"6p"
+								],
+								"material": [
+									"plastic-white"
+								],
+								"measurement": {
+									"quantity": { "value": 8, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "476-6805"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 98,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"crimp",
+									"1p",
+									"female"
+								],
+								"material": [
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 133, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "688-1385"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 99,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"header",
+									"2p"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 7, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "512-8585"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 100,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"header",
+									"2p",
+									"degrees-90"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 12, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "512-8462"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 101,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"header",
+									"3p"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 5, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "512-8591"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 102,
+						"description": "box - cells x14 - cell x1",
+						"contents": []
+					},
+					{
+						"class": "location",
+						"id": 103,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"header",
+									"5p",
+									"degrees-90"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 8, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "512-8490"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 104,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"header",
+									"5p"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 4, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "512-8614"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 105,
+						"description": "box - cells x14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"pa",
+									"header",
+									"6p"
+								],
+								"material": [
+									"plastic-white",
+									"copper-plated-tin"
+								],
+								"measurement": {
+									"quantity": { "value": 8, "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "512-8636"
+									}
+								]
 							}
 						]
 					}
