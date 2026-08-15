@@ -27,7 +27,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 4, "unit": "mm" },
 									"quantity": { "value": 73, "unit": "unit" }
-								}
+								},
+								"colour": [
+									"metallic-neutral"	
+								]
 							}
 						]
 					},	
@@ -49,7 +52,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 4, "unit": "mm" },
 									"quantity": { "value": 145, "unit": "unit" }
-								}
+								},
+								"colour": [
+									"metallic-neutral"	
+								]
 							}
 						]
 					},	
@@ -71,7 +77,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 5, "unit": "mm" },
 									"quantity": { "value": 220, "unit": "unit" }
-								}
+								},
+								"colour": [
+									"metallic-neutral"	
+								]
 							}
 						]
 					},	
@@ -93,7 +102,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 4, "unit": "mm" },
 									"quantity": { "value": 3, "unit": "unit" }
-								}
+								},
+								"colour": [
+									"metallic-brass"	
+								]
 							}
 						]
 					},	
@@ -117,7 +129,10 @@
 									"length": { "value": "3/8", "unit": "inch" },
 									"tool": { "value": 1, "unit": "phillips" },
 									"quantity": { "value": 138, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},	
@@ -139,7 +154,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 3, "unit": "mm" },
 									"quantity": { "value": 3, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-brass"
+								]
 							},
 							{
 								"class": "item",
@@ -154,7 +172,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 5, "unit": "mm" },
 									"quantity": { "value": 3, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-brass"
+								]
 							}
 						]
 					},	
@@ -178,7 +199,10 @@
 									"length": { "value": 8, "unit": "mm" },
 									"tool": { "value": 2, "unit": "mm-hex-internal" },
 									"quantity": { "value": 145, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},	
@@ -202,6 +226,11 @@
 									"tool": { "value": 7, "unit": "mm-hex-external" },
 									"quantity": { "value": 66, "unit": "unit" }
 								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"blue"
+								]
 							}
 						]
 					},	
@@ -223,7 +252,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 3, "unit": "mm" },
 									"quantity": { "value": 187, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},	
@@ -246,7 +278,11 @@
 									"thread": { "value": 5, "unit": "mm" },
 									"tool": { "value": 8, "unit": "mm-hex-external" },
 									"quantity": { "value": 104, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"blue"
+								]
 							}
 						]
 					},	
@@ -269,7 +305,11 @@
 									"thread": { "value": 5, "unit": "mm" },
 									"tool": { "value": 8, "unit": "mm-hex-external" },
 									"quantity": { "value": 32, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"blue"
+								]
 							}
 						]
 					},	
@@ -286,12 +326,15 @@
 									"flat"
 								],
 								"material": [
-									"nylon-white"
+									"nylon"
 								],
 								"measurement": {
 									"diameterInternal": { "value": 4, "unit": "mm" },
 									"quantity": { "value": 1, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"white"
+								]
 							}
 						]
 					},	
@@ -308,12 +351,15 @@
 									"flat"
 								],
 								"material": [
-									"nylon-white"
+									"nylon"
 								],
 								"measurement": {
 									"diameterInternal": { "value": 3.5, "unit": "mm" },
 									"quantity": { "value": 3, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"white"
+								]
 							}
 						]
 					},	
@@ -337,7 +383,10 @@
 									"length": { "value": 8, "unit": "mm" },
 									"tool": { "value": 2.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 6, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					}	
@@ -370,7 +419,10 @@
 									"width": { "value": 10.8, "unit": "mm" },
 									"height": { "value": 6.3, "unit": "mm" },
 									"quantity": { "value": 2, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},	
@@ -394,7 +446,10 @@
 									"width": { "value": 31.5, "unit": "mm" },
 									"height": { "value": 1.5, "unit": "mm" },
 									"quantity": { "value": 6, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"white"
+								]
 							}
 						]
 					},	
@@ -418,7 +473,10 @@
 									"length": { "value": 8, "unit": "mm" },
 									"tool": { "value": 2.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 9, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},	
@@ -442,7 +500,10 @@
 									"length": { "value": 8, "unit": "mm" },
 									"tool": { "value": 2, "unit": "mm-hex-internal" },
 									"quantity": { "value": 35, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},	
@@ -459,14 +520,17 @@
 									"adhesive-mount"
 								],
 								"material": [
-									"aluminium-anodised-black"
+									"aluminium-anodised"
 								],
 								"measurement": {
 									"length": { "value": 8.8, "unit": "mm" },
 									"width": { "value": 8.8, "unit": "mm" },
 									"height": { "value": 4.9, "unit": "mm" },
 									"quantity": { "value": 10, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"black"
+								]
 							}
 						]
 					},	
@@ -488,7 +552,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 6, "unit": "mm" },
 									"quantity": { "value": 11, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},	
@@ -505,12 +572,15 @@
 									"flat"
 								],
 								"material": [
-									"nylon-white"
+									"nylon"
 								],
 								"measurement": {
 									"diameterInternal": { "value": 6, "unit": "mm" },
 									"quantity": { "value": 11, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"white"
+								]
 							}
 						]
 					},	
@@ -532,7 +602,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 10, "unit": "mm" },
 									"quantity": { "value": 18, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},	
@@ -549,14 +622,17 @@
 									"pan-head"
 								],
 								"material": [
-									"plastic-clear"
+									"plastic"
 								],
 								"measurement": {
 									"thread": { "value": 3, "unit": "mm" },
 									"length": { "value": 12, "unit": "mm" },
 									"tool": { "value": 2, "unit": "phillips" },
 									"quantity": { "value": 9, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"translucent-neutral"
+								]
 							}
 						]
 					},	
@@ -572,7 +648,8 @@
 								"variant": [
 									"jumper",
 						                        "header",
-									"with-handle"
+									"with-handle",
+									"header-mount"
 								],
 								"material": [
 									"plastic-black",
@@ -581,7 +658,11 @@
 								"measurement": {
 									"pitch": { "value": 100, "unit": "mil" },
 									"quantity": { "value": 1, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"black"
+								]
 							}
 						]
 					},	
@@ -597,7 +678,8 @@
 								"variant": [
 									"lug",
 									"cable",
-									"crimp"
+									"crimp",
+									"wire-mount"
 								],
 								"material": [
 									"copper-plated-tin"
@@ -606,7 +688,10 @@
 									"diameterInternal": { "value": 8, "unit": "mm" },
 									"size": { "value": 4, "unit": "mm^2" },
 									"quantity": { "value": 7, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},	
@@ -621,15 +706,21 @@
 								"type": "connector",
 								"variant": [
 									"bootlace",
-									"crimp"
+									"crimp",
+									"wire-mount"
 								],
 								"material": [
-									"copper-plated-tin"
+									"copper-plated-tin",
+									"plastic"
 								],
 								"measurement": {
 									"size": { "value": 2.5, "unit": "mm^2" },
 									"quantity": { "value": 65, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"grey"
+								]
 							}
 						]
 					},	
@@ -644,15 +735,21 @@
 								"type": "connector",
 								"variant": [
 									"bootlace",
-									"crimp"
+									"crimp",
+									"wire-mount"
 								],
 								"material": [
-									"copper-plated-tin"
+									"copper-plated-tin",
+									"plastic"
 								],
 								"measurement": {
 									"size": { "value": 1.5, "unit": "mm^2" },
 									"quantity": { "value": 86, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"black"
+								]
 							}
 						]
 					},	
@@ -667,15 +764,21 @@
 								"type": "connector",
 								"variant": [
 									"bootlace",
-									"crimp"
+									"crimp",
+									"wire-mount"
 								],
 								"material": [
-									"copper-plated-tin"
+									"copper-plated-tin",
+									"plastic"
 								],
 								"measurement": {
 									"size": { "value": 0.75, "unit": "mm^2" },
 									"quantity": { "value": 31, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"blue"
+								]
 							}
 						]
 					}	
@@ -700,14 +803,17 @@
 									"non-threaded"
 								],
 								"material": [
-									"plastic-black"
+									"plastic"
 								],
 								"measurement": {
 									"diameterInternal": { "value": 3.5, "unit": "mm" },
 									"diameterExternal": { "value": 7, "unit": "mm" },
 									"thickness": { "value": 5.1, "unit": "mm" },
 									"quantity": { "value": 67, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"black"
+								]
 							}
 						]
 					},
@@ -734,7 +840,10 @@
 									"height": { "value": 8, "unit": "mm" },
 									"tool": { "value": 5.5, "unit": "mm-hex-external" },
 									"quantity": { "value": 12, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -751,12 +860,15 @@
 									"ball-individual"
 								],
 								"material": [
-									"metal"
+									"steel"
 								],
 								"measurement": {
 									"diameter": { "value": 3, "unit": "mm" },
 									"quantity": { "value": 120, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -781,7 +893,10 @@
 									"length": { "value": 6, "unit": "mm" },
 									"tool": { "value": 8, "unit": "mm-slot" },
 									"quantity": { "value": 10, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -795,8 +910,7 @@
 								"kind": "fastener",
 								"type": "screw",
 								"variant": [
-									"pan-head",
-									"phillips"
+									"pan-head"
 								],
 								"material": [
 									"ss-304"
@@ -806,7 +920,10 @@
 									"length": { "value": "5/8", "unit": "inch" },
 									"tool": { "value": 2, "unit": "phillips" },
 									"quantity": { "value": 8, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -830,7 +947,10 @@
 									"length": { "value": 10, "unit": "mm" },
 									"tool": { "value": 2, "unit": "mm-hex-internal" },
 									"quantity": { "value": 83, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -847,7 +967,7 @@
 									"ball"
 								],
 								"material": [
-									"metal"
+									"steel"
 								],
 								"measurement": {
 									"diameterInternal": { "value": 5, "unit": "mm" },
@@ -855,6 +975,9 @@
 									"thickness": { "value": 4, "unit": "mm" },
 									"quantity": { "value": 4, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral"
+								],
 								"source": [
 									{
 										"vendor": "associated bearings",
@@ -876,6 +999,7 @@
 								"variant": [
 									"dual-inline-package",
 									"2p1t",
+									"pcb-mount",
 									"smd"
 								],
 								"material": [
@@ -885,6 +1009,11 @@
 								"measurement": {
 									"quantity": { "value": 5, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"black",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -906,6 +1035,7 @@
 								"variant": [
 									"dual-inline-package",
 									"2p1t",
+									"pcb-mount",
 									"smd"
 								],
 								"material": [
@@ -915,6 +1045,11 @@
 								"measurement": {
 									"quantity": { "value": 4, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"black",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -935,6 +1070,7 @@
 								"type": "switch",
 								"variant": [
 									"2p2t",
+									"pcb-mount",
 									"smd"
 								],
 								"material": [
@@ -944,6 +1080,11 @@
 								"measurement": {
 									"quantity": { "value": 8, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"black",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -964,7 +1105,8 @@
 								"type": "connector",
 								"variant": [
 									"header",
-									"jumper"
+									"jumper",
+									"header-mount"
 								],
 								"material": [
 									"copper-plated-tin",
@@ -973,7 +1115,11 @@
 								"measurement": {
 									"pitch": { "value": 100, "unit": "mil" },
 									"quantity": { "value": 47, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"black"
+								]
 							}
 						]
 					},
@@ -989,15 +1135,20 @@
 								"variant": [
 									"xt60",
 									"male",
-									"solder-bucket"
+									"solder-bucket",
+									"wire-mount"
 								],
 								"material": [
 									"copper-plated-gold",
-									"plastic-yellow"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 3, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-gold",
+									"yellow"
+								]
 							}
 						]
 					},
@@ -1013,15 +1164,20 @@
 								"variant": [
 									"xt60",
 									"female",
-									"solder-bucket"
+									"solder-bucket",
+									"wire-mount"
 								],
 								"material": [
 									"copper-plated-gold",
-									"plastic-yellow"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 2, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-gold",
+									"yellow"
+								]
 							}
 						]
 					},
@@ -1037,15 +1193,20 @@
 								"variant": [
 									"deans",
 									"male",
-									"solder-tag"
+									"solder-tag",
+									"wire-mount"
 								],
 								"material": [
 									"copper-plated-gold",
-									"plastic-maroon"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 1, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-gold",
+									"maroon"
+								]
 							}
 						]
 					}
@@ -1076,7 +1237,10 @@
 									"length": { "value": 5, "unit": "mm" },
 									"tool": { "value": 1.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 27, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -1100,7 +1264,10 @@
 									"length": { "value": 8, "unit": "mm" },
 									"tool": { "value": 2, "unit": "mm-hex-internal" },
 									"quantity": { "value": 8, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -1124,7 +1291,10 @@
 									"length": { "value": 8, "unit": "mm" },
 									"tool": { "value": 1.3, "unit": "mm-hex-internal" },
 									"quantity": { "value": 20, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"black"
+								]
 							}
 						]
 					},
@@ -1148,7 +1318,10 @@
 									"length": { "value": 10, "unit": "mm" },
 									"tool": { "value": 2.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 87, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -1172,7 +1345,10 @@
 									"length": { "value": 12, "unit": "mm" },
 									"tool": { "value": 2.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 50, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -1199,7 +1375,10 @@
 									"length": { "value": 14, "unit": "mm" },
 									"tool": { "value": 2.5, "unit": "mm-hex-internal" },
 									"quantity": { "value": 20, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -1217,7 +1396,8 @@
 									"xh",
 									"1p",
 									"female",
-									"crimp"
+									"crimp",
+									"wire-mount"
 								],
 								"material": [
 									"copper-plated-tin"
@@ -1226,6 +1406,9 @@
 									"size": { "value": 26, "unit": "AWG" },
 									"quantity": { "value": 100, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -1249,14 +1432,18 @@
 									"jst",
 									"xh",
 									"2p",
-									"female"
+									"female",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 50, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1280,14 +1467,18 @@
 									"jst",
 									"xh",
 									"3p",
-									"female"
+									"female",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 49, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1311,14 +1502,18 @@
 									"jst",
 									"xh",
 									"4p",
-									"female"
+									"female",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 50, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1342,7 +1537,8 @@
 									"xh",
 									"1p",
 									"female",
-									"crimp"
+									"crimp",
+									"wire-mount"
 								],
 								"material": [
 									"copper-plated-tin"
@@ -1351,6 +1547,9 @@
 									"size": { "value": "22-28", "unit": "AWG" },
 									"quantity": { "value": 247, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1375,13 +1574,16 @@
 									"flap-locator"
 								],
 								"material": [
-									"plastic-black",
+									"plastic",
 									"magnet",
 									"steel-black"
 								],
 								"measurement": {
 									"quantity": { "value": 1, "unit": "unit" }
 								},
+								"colors": [
+									"black"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1409,7 +1611,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 3, "unit": "mm" },
 									"quantity": { "value": 333, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -1432,7 +1637,10 @@
 									"thread": { "value": 3, "unit": "mm" },
 									"tool": { "value": 5.5, "unit": "mm-hex-external" },
 									"quantity": { "value": 90, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					}
@@ -1457,13 +1665,16 @@
 									"flap-locator"
 								],
 								"material": [
-									"plastic-black",
+									"plastic",
 									"magnet",
 									"steel-black"
 								],
 								"measurement": {
 									"quantity": { "value": 2, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"black"
+								]
 							}
 						]
 					},
@@ -1480,15 +1691,21 @@
 									"jst",
 									"ph",
 									"6p",
-									"header"
+									"header",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 10, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1511,15 +1728,21 @@
 									"jst",
 									"ph",
 									"5p",
-									"header"
+									"header",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 9, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								]
 							}
 						]
 					},
@@ -1537,15 +1760,21 @@
 									"ph",
 									"5p",
 									"degrees-90",
-									"header"
+									"header",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 6, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -1569,15 +1798,21 @@
 									"ph",
 									"4p",
 									"degrees-90",
-									"header"
+									"header",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 10, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -1600,15 +1835,21 @@
 									"jst",
 									"ph",
 									"3p",
-									"header"
+									"header",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 10, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1631,15 +1872,21 @@
 									"jst",
 									"ph",
 									"2p",
-									"header"
+									"header",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 10, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1663,15 +1910,20 @@
 									"ph",
 									"1p",
 									"female",
-									"crimp"
+									"crimp",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 88, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -1695,15 +1947,21 @@
 									"ph",
 									"6p",
 									"female",
-									"header"
+									"header",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 88, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -1727,14 +1985,18 @@
 									"ph",
 									"6p",
 									"female",
-									"housing"
+									"housing",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 10, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1766,6 +2028,9 @@
 									"tool": { "value": 2, "unit": "phillips" },
 									"quantity": { "value": 10, "unit": "unit" }
 								},
+								"colors": [
+									"metallic"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -1788,14 +2053,18 @@
 									"housing",
 									"jst",
 									"ph",
-									"5p"
+									"5p",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 20, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -1818,14 +2087,18 @@
 									"housing",
 									"jst",
 									"ph",
-									"4p"
+									"4p",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 9, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -1848,14 +2121,18 @@
 									"housing",
 									"jst",
 									"ph",
-									"3p"
+									"3p",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 10, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1878,14 +2155,18 @@
 									"housing",
 									"jst",
 									"ph",
-									"2p"
+									"2p",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 10, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "digikey",
@@ -1923,7 +2204,10 @@
 									"length": { "value": "5/8", "unit": "inch" },
 									"tool": { "value": 1, "unit": "phillips" },
 									"quantity": { "value": 83, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -1948,7 +2232,10 @@
 									"length": { "value": "5/8", "unit": "inch" },
 									"tool": { "value": 1, "unit": "phillips" },
 									"quantity": { "value": 91, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -1984,7 +2271,10 @@
 									"diameterExternal": { "value": 31.6, "unit": "mm" },
 									"thickness": { "value": 1.4, "unit": "mm" },
 									"quantity": { "value": 4, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -2007,7 +2297,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 8, "unit": "mm" },
 									"quantity": { "value": 4, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -2029,7 +2322,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 8, "unit": "mm" },
 									"quantity": { "value": 12, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -2043,8 +2339,7 @@
 								"kind": "fastener",
 								"type": "screw",
 								"variant": [
-									"cscs",
-									"phillips"
+									"cscs"
 								],
 								"material": [
 									"ss-304"
@@ -2054,7 +2349,10 @@
 									"length": { "value": 1, "unit": "inch" },
 									"tool": { "value": 1, "unit": "phillips" },
 									"quantity": { "value": 6, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -2076,7 +2374,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 4, "unit": "mm" },
 									"quantity": { "value": 49, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -2098,7 +2399,10 @@
 								"measurement": {
 									"diameterInternal": { "value": 4, "unit": "mm" },
 									"quantity": { "value": 16, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -2126,7 +2430,11 @@
 								"measurement": {
 									"thread": { "value": 6, "unit": "mm" },
 									"quantity": { "value": 4, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"blue"
+								]
 							}
 						]
 					},
@@ -2149,7 +2457,10 @@
 									"thread": { "value": 8, "unit": "mm" },
 									"tool": { "value": 13, "unit": "mm-hex-external" },
 									"quantity": { "value": 9, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral"
+								]
 							}
 						]
 					},
@@ -2172,7 +2483,11 @@
 									"thread": { "value": 8, "unit": "mm" },
 									"tool": { "value": 13, "unit": "mm-hex-external" },
 									"quantity": { "value": 5, "unit": "unit" }
-								}
+								},
+								"colors": [
+									"metallic-neutral",
+									"blue"
+								]
 							}
 						]
 					}
@@ -2195,14 +2510,18 @@
 								"variant": [
 									"pa",
 									"housing",
-									"2p"
+									"2p",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 23, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2225,15 +2544,21 @@
 									"pa",
 									"header",
 									"6p",
-									"degrees-90"
+									"degrees-90",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 10, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2255,14 +2580,18 @@
 								"variant": [
 									"pa",
 									"housing",
-									"3p"
+									"3p",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 7, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2291,11 +2620,17 @@
 									"pa",
 									"header",
 									"8p",
-									"degrees-90"
+									"degrees-90",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
+								},
+								"colors": [
+									"metallic-neutral",
+									"white"
 								],
 								"measurement": {
 									"quantity": { "value": 1, "unit": "unit" }
@@ -2315,14 +2650,18 @@
 								"variant": [
 									"pa",
 									"housing",
-									"6p"
+									"6p",
+									"wire-mount"
 								],
 								"material": [
-									"plastic-white"
+									"plastic"
 								],
 								"measurement": {
 									"quantity": { "value": 8, "unit": "unit" }
 								},
+								"colors": [
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2345,7 +2684,8 @@
 									"pa",
 									"crimp",
 									"1p",
-									"female"
+									"female",
+									"wire-mount"
 								],
 								"material": [
 									"copper-plated-tin"
@@ -2353,6 +2693,9 @@
 								"measurement": {
 									"quantity": { "value": 133, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2374,15 +2717,21 @@
 								"variant": [
 									"pa",
 									"header",
-									"2p"
+									"2p",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 7, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2405,15 +2754,21 @@
 									"pa",
 									"header",
 									"2p",
-									"degrees-90"
+									"degrees-90",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 12, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2435,15 +2790,21 @@
 								"variant": [
 									"pa",
 									"header",
-									"3p"
+									"3p",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 5, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2472,15 +2833,21 @@
 									"pa",
 									"header",
 									"5p",
-									"degrees-90"
+									"degrees-90",
+									"pcb-mount",
+									"though-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 8, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2502,15 +2869,21 @@
 								"variant": [
 									"pa",
 									"header",
-									"5p"
+									"5p",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 4, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2532,15 +2905,21 @@
 								"variant": [
 									"pa",
 									"header",
-									"6p"
+									"6p",
+									"pcb-mount",
+									"through-hole"
 								],
 								"material": [
-									"plastic-white",
+									"plastic",
 									"copper-plated-tin"
 								],
 								"measurement": {
 									"quantity": { "value": 8, "unit": "unit" }
 								},
+								"colors": [
+									"metallic-neutral",
+									"white"
+								],
 								"source": [
 									{
 										"vendor": "rs components",
@@ -2572,7 +2951,10 @@
 							"width": { "value": 6, "unit": "inch" },
 							"thickness": { "value": 0.016, "unit": "inch" },
 							"quantity": { "value": 1, "unit": "unit" }
-						}
+						},
+						"colors": [
+							"metallic-copper"
+						]
 					},
 					{
 						"class": "item",
@@ -2590,7 +2972,11 @@
 							"width": { "value": 94, "unit": "mm" },
 							"thickness": { "value": 1.7, "unit": "mm" },
 							"quantity": { "value": 1, "unit": "unit" }
-						}
+						},
+						"colors": [
+							"metallic-copper",
+							"brown-light"
+						]
 					},
 					{
 						"class": "item",
@@ -2608,7 +2994,11 @@
 							"width": { "value": 50, "unit": "mm" },
 							"thickness": { "value": 1.6, "unit": "mm" },
 							"quantity": { "value": 1, "unit": "unit" }
-						}
+						},
+						"colors": [
+							"metallic-copper",
+							"brown-light"
+						]
 					},
 					{
 						"class": "item",
@@ -2627,7 +3017,10 @@
 							"width": { "value": 0.6, "unit": "inch" },
 							"thickness": { "value": 0.02, "unit": "inch" },
 							"quantity": { "value": 16, "unit": "unit" }
-						}
+						},
+						"colors": [
+							"metallic-copper"
+						]
 					}
 				]
 			},
@@ -2642,7 +3035,9 @@
 						"type": "resistor",
 						"variant": [
 							"potentiometer",
-							"logarithmic"
+							"logarithmic",
+							"panel-mount",
+							"wire-mount"
 						],
 						"material": [
 							"metal",
@@ -2659,6 +3054,10 @@
 							"heightOverall": { "value": 56.88, "unit": "mm" },
 							"quantity": { "value": 1, "unit": "unit" }
 						},
+						"colors": [
+							"metallic-neutral",
+							"brown-light"
+						],
 						"note": "Mounting hardware missing."
 					},
 					{
@@ -2668,13 +3067,16 @@
 						"variant": [
 							"potentiometer",
 							"logarithmic",
-							"guitar-electric"
+							"guitar-electric",
+							"panel-mount",
+							"wire-mount"
 						],
 						"material": [
 							"metal",
 							"fibreglass"
 						],
 						"measurement": {
+							"resistance": { "value": 500000, "unit": "ohm" },
 							"lengthShaft": { "value": "3/8", "unit": "inch" },
 							"diameterShaft": { "value": 6, "unit": "mm" },
 							"diameterThread": { "value": 9.4, "unit": "mm" },
@@ -2682,8 +3084,60 @@
 							"diameterBody": { "value": 15.6, "unit": "mm" },
 							"heightBody": { "value": 8, "unit": "mm" },
 							"heightOverall": { "value": 28.6, "unit": "mm" },
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral",
+							"metallic-brass"
+						],
+						"note": "Mounting hardware included"
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "fastener",
+						"variant": [
+							"potentiometer",
+							"lock-nut",
+							"washer"
+						],
+						"material": [
+							"metal"
+						],
+						"colors": [
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "resistor",
+						"variant": [
+							"potentiometer",
+							"logarithmic",
+							"guitar-electric",
+							"panel-mount",
+							"wire-mount"
+						],
+						"material": [
+							"metal",
+							"fibreglass"
+						],
+						"measurement": {
+							"lengthShaft": { "value": "3/8", "unit": "inch" },
+							"diameterShaft": { "value": "1/4", "unit": "inch" },
+							"diameterThread": { "value": 9.4, "unit": "mm" },
+							"heightThread": { "value": 9.4, "unit": "mm" },
+							"diameterBody": { "value": 23.7, "unit": "mm" },
+							"heightBody": { "value": 9.3, "unit": "mm" },
+							"heightOverall": { "value": 31.5, "unit": "mm" },
 							"quantity": { "value": 1, "unit": "unit" }
 						},
+						"colors": [
+							"metallic-neutral",
+							"metallic-brass",
+							"brown-light"
+						],
 						"note": "Mounting hardware included"
 					},
 					{
@@ -2702,7 +3156,10 @@
 							"diameter": { "value": 4, "unit": "mm" },
 							"diameterWire": { "value": 0.4, "unit": "mm" },
 							"quantity": { "value": 10, "unit": "unit" }
-						}
+						},
+						"colors": [
+							"metallic-neutral"
+						]
 					},
 					{
 						"class": "item",
@@ -2720,7 +3177,10 @@
 							"diameter": { "value": 4, "unit": "mm" },
 							"diameterWire": { "value": 0.4, "unit": "mm" },
 							"quantity": { "value": 5, "unit": "unit" }
-						}
+						},
+						"colors": [
+							"metallic-neutral"
+						]
 					},
 					{
 						"class": "item",
@@ -2742,7 +3202,11 @@
 							"width": { "value": 25.5, "unit": "mm" },
 							"thickness": { "value": 1.6, "unit": "mm" },
 							"quantity": { "value": 4, "unit": "unit" }
-						}
+						},
+						"colors": [
+							"metallic-neutral",
+							"red"
+						]
 					},
 					{
 						"class": "item",
@@ -2764,7 +3228,11 @@
 							"width": { "value": 22.5, "unit": "mm" },
 							"thickness": { "value": 1.6, "unit": "mm" },
 							"quantity": { "value": 8, "unit": "unit" }
-						}
+						},
+						"colors": [
+							"metallic-neutral",
+							"red"
+						]
 					},
 					{
 						"class": "item",
@@ -2788,7 +3256,11 @@
 							"width": { "value": 17.1, "unit": "mm" },
 							"thickness": { "value": 1.6, "unit": "mm" },
 							"quantity": { "value": 10, "unit": "unit" }
-						}
+						},
+						"colors": [
+							"metallic-neutral",
+							"blue"
+						]
 					},
 					{
 						"class": "item",
@@ -2804,6 +3276,9 @@
 						],
 						"material": [
 							"paper"
+						},
+						"colors": [
+							"white"
 						]
 					}
 				]
@@ -2818,8 +3293,7 @@
 						"kind": "component",
 						"type": "wire",
 						"variant": [
-							"grey",
-							"multi-core"
+							"multi-stranded"
 						],
 						"material": [
 							"copper",
@@ -2828,7 +3302,10 @@
 						"measurement": {
 							"size": { "value": 24, "unit": "AWG" },
 							"quantity": { "value": 5, "unit": "m" }
-						}
+						},
+						"colors": [
+							"grey"
+						]
 					},
 					{
 						"class": "item",
@@ -2836,7 +3313,7 @@
 						"type": "wire",
 						"variant": [
 							"black",
-							"multi-core"
+							"multi-stranded"
 						],
 						"material": [
 							"copper",
@@ -2845,7 +3322,10 @@
 						"measurement": {
 							"size": { "value": 24, "unit": "AWG" },
 							"quantity": { "value": 5, "unit": "m" }
-						}
+						},
+						"colors": [
+							"black"
+						]
 					}
 				]
 			},
@@ -2867,7 +3347,10 @@
 						"measurement": {
 							"size": { "value": 24, "unit": "australian-ball-sinker-number" },
 							"quantity": { "value": 2, "unit": "unit" }
-						}
+						},
+						"colors": [
+							"lead"
+						]
 					},
 					{
 						"class": "item",
@@ -2882,7 +3365,10 @@
 						"measurement": {
 							"size": { "value": 12, "unit": "australian-ball-sinker-number" },
 							"quantity": { "value": 1, "unit": "m" }
-						}
+						},
+						"colors": [
+							"lead"
+						]
 					},
 					{
 						"class": "item",
@@ -2897,10 +3383,926 @@
 						"measurement": {
 							"size": { "value": 6, "unit": "australian-ball-sinker-number" },
 							"quantity": { "value": 4, "unit": "m" }
-						}
+						},
+						"colors": [
+							"lead"
+						]
 					}
 				]
-			}
+			},
+			{
+				"class": "location",
+				"id": 110,
+				"description": "storage box - clear - medium",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "knob",
+						"variant": [
+							"fender",
+							"stratocaster",
+							"tone",
+							"text-white"
+						],
+						"material": [
+							"plastic"
+						],
+						"measurement": {
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"black"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "knob",
+						"variant": [
+							"fender",
+							"stratocaster",
+							"volume",
+							"black",
+							"text-white"
+						],
+						"material": [
+							"plastic"
+						],
+						"measurement": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"black"
+						],
+						"note": "Text colour has faded to beige."
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "printed-circuit",
+						"variant": [
+							"assembly",
+							"fender",
+							"stratocaster",
+							"interconnect",
+							"custom"
+						],
+						"material": [
+							"fibreglass",
+							"copper",
+							"plastic"
+						],
+						"measurement": {
+							"length": { "value": 62, "unit": "mm" },
+							"width": { "value": 25.5, "unit": "mm" },
+							"height": { "value": 17.5, "unit": "mm" },
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"red",
+							"white",
+							"green",
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "printed-circuit",
+						"variant": [
+							"assembly",
+							"fender",
+							"stratocaster",
+							"potentiometer",
+							"custom"
+						],
+						"material": [
+							"fibreglass",
+							"copper",
+							"plastic"
+						],
+						"measurement": {
+							"length": { "value": 24, "unit": "mm" },
+							"width": { "value": 22.5, "unit": "mm" },
+							"height": { "value": 6.2, "unit": "mm" },
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"red",
+							"white",
+							"black",
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "bridge",
+						"variant": [
+							"fender",
+							"stratocaster"
+						],
+						"material": [
+							"aluminium-cast",
+							"steel-black"
+						],
+						"measurement": {
+							"length": { "value": 40, "unit": "mm" },
+							"width": { "value": 84.2, "unit": "mm" },
+							"height": { "value": 46.4, "unit": "mm" },
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"black"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "connector",
+						"variant": [
+							"TRS",
+							"female",
+							"panel-mount",
+							"guitar-electric"
+						],
+						"material": [
+							"metal",
+							"plastic"
+						],
+						"measurement": {,
+							"size": { "value": "1/4", "unit": "inch" },
+							"quantity": { "value": 5, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral",
+							"yellow"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "fastener",
+						"variant": [
+							"guitar-electric",
+							"fender",
+							"stratocaster",
+							"scratch-panel"
+						],
+						"material": [
+							"steel-black"
+						],
+						"measurement": {
+							"quantity": { "value": 20, "unit": "unit" }
+						},
+						"colors": [
+							"black"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "knob",
+						"variant": [
+							"guitar-bass-electric",
+							"fender",
+							"p-bass"
+						],
+						"material": [
+							"brass-plated-chrome"
+						],
+						"measurement": {
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"chrome"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "machine-head",
+						"variant": [
+							"guitar-electric",
+							"fender",
+							"stratocaster",
+							"squire"
+						],
+						"material": [
+							"brass-plated-chrome"
+						],
+						"measurement": {
+							"quantity": { "value": 6, "unit": "unit" }
+						},
+						"colors": [
+							"chrome"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "connector",
+						"variant": [,
+							"TS",
+							"cable-mount"
+						],
+						"material": [
+							"brass-plated-chrome",
+							"copper-plated-chrome"
+						],
+						"measurement": {
+							"size": { "value": "1/4", "unit": "inch" },
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"chrome"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "knob",
+						"variant": [,
+							"guitar-electric",
+							"guitar-bass-electric"
+						],
+						"material": [
+							"3d-printer-resin-tough",
+							"brass",
+							"ss-304"
+						],
+						"measurement": {
+							"quantity": { "value": 3, "unit": "unit" }
+						},
+						"colors": [
+							"white",
+							"metallic-brass",
+							"metallic-neutral"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 111,
+				"description": "storage box - clear - large",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "kit",
+						"variant": [
+							"tamiya",
+							"double-gearbox"
+						],
+						"material": [
+							"plastic",
+							"metal"
+						],
+						"measurement": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"grey-dark",
+							"blue",
+							"yellow"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 112,
+				"description": "storage box - clear - large",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "kit",
+						"variant": [
+							"tamiya",
+							"track-and-wheel-set"
+						],
+						"material": [
+							"plastic",
+							"metal"
+						],
+						"measurement": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"grey-dark",
+							"orange",
+							"metallic-neutral"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 113,
+				"description": "storage box - clear - medium",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "kit",
+						"variant": [
+							"tamiya",
+							"belt-pulley-kit"
+						],
+						"material": [
+							"plastic",
+							"metal"
+						],
+						"measurement": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"white",
+							"blue"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 114,
+				"description": "storage box - clear - medium",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "wire",
+						"variant": [
+							"multi-stranded"
+						],
+						"material": [
+							"copper-plated-tin",
+							"silicone"
+						],
+						"measurement": {
+							"size": { "value": 24, "unit": "AWG" }
+						},
+						"colors": [
+							"blue",
+							"white",
+							"grey",
+							"yellow",
+							"green",
+							"brown",
+							"orange"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 115,
+				"description": "storage box - clear - small",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "mesh",
+						"variant": [
+							"fan",
+							"filter"
+						],
+						"material": [
+							"ss"
+						],
+						"measurement": {
+							"length": { "value": 60, "unit": "mm" },
+							"width": { "value": 60, "unit": "mm" },
+							"chamferCorners": { "value": 13, "unit": "mm" },
+							"thickness": { "value": 0.6, "unit": "mm" },
+							"quantity": { "value": 4, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 116,
+				"description": "storage box - clear - small",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "vial-spirit",
+						"variant": [
+							"levelling",
+							"prevision",
+							"total-station"
+						],
+						"material": [
+							"aluminium-cast",
+							"glass",
+							"ss"
+						],
+						"measurement": {
+							"precision": { "value": 30, "unit": "arc-seconds-per-division" },
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"grey",
+							"metallic-neutral"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 117,
+				"description": "storage box - clear - small",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "battery",
+						"variant": [
+							"cr2032"
+						],
+						"material": [
+							"chemicals-hazardous",
+							"metal"
+						],
+						"measurement": {
+							"quantity": { "value": 5, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "battery",
+						"variant": [
+							"cr2025"
+						],
+						"material": [
+							"chemicals-hazardous",
+							"metal"
+						],
+						"measurement": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "battery",
+						"variant": [
+							"lr44",
+							"ag13"
+						],
+						"material": [
+							"chemicals-hazardous",
+							"metal"
+						],
+						"measurement": {
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "battery",
+						"variant": [
+							"ag23",
+							"a23"
+						],
+						"material": [
+							"chemicals-hazardous",
+							"metal"
+						],
+						"measurement": {
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"blue",
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "battery",
+						"variant": [
+							"ag27"
+						],
+						"material": [
+							"chemicals-hazardous",
+							"metal"
+						],
+						"measurement": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"blue",
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "battery",
+						"variant": [
+							"377a"
+						],
+						"material": [
+							"chemicals-hazardous",
+							"metal"
+						],
+						"measurement": {
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"blue",
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "battery",
+						"variant": [
+							"vl2330",
+							"coin",
+							"solder-tag",
+							"key-fob",
+							"ford-falcon-ba"
+						],
+						"material": [
+							"chemicals-hazardous",
+							"metal"
+						],
+						"measurement": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"brown",
+							"metallic-neutral"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 118,
+				"description": "storage box - clear - small",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "tool",
+						"type": "kit",
+						"variant": [
+							"spherical-diameter"
+						],
+						"material": [
+							"3d-printer-resin-tough"
+						],
+						"colors": [
+							"white"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 119,
+				"description": "storage box - clear - small",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "wire",
+						"variant": [
+							"jewellery",
+							"necklace",
+							"bracelet"
+						],
+						"material": [
+							"ss"
+						],
+						"measurement": {
+							"diameter": { "value": 0.4, "unit": "mm" }
+						},
+						"colors": [
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "crimp",
+						"variant": [
+							"jewellery",
+							"necklace",
+							"bracelet",
+							"wire-mount"
+						],
+						"material": [
+							"metal-non-ferrous"
+						],
+						"measurement": {
+							"quantity": { "value": 4, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 120,
+				"description": "storage box - clear - medium",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "desiccant",
+						"variant": [
+							"moisture-absorbent"
+						],
+						"material": [
+							"paper",
+							"chemicals"
+						],
+						"measurement": {
+							"length": { "value": 39, "unit": "mm" },
+							"width": { "value": 30, "unit": "mm" },
+							"height": { "value": 6, "unit": "mm" },
+							"quantity": { "value": 14, "unit": "unit" }
+						},
+						"colors": [
+							"white",
+							"black"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 121,
+				"description": "box - cells x 14",
+				"contents": [
+					{
+						"class": "location",
+						"id": 122,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "spring",
+								"variant": [
+									"helical",
+									"compression"
+								],
+								"material": [
+									"ss"
+								],
+								"measurement": {
+									"length": { "value": 5, "unit": "mm" },
+									"diameter": { "value": 2, "unit": "mm" },
+									"diameterWire": { "value": 0.2, "unit": "mm" },
+									"quantity": { "value": 19, "unit": "unit" }
+								},
+								"colour": [
+									"metallic-neutral"	
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 123,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "fastener",
+								"variant": [
+									"pin",
+									"spring"
+								],
+								"material": [
+									"steel-black"
+								],
+								"measurement": {
+									"length": { "value": 8, "unit": "mm" },
+									"diameter": { "value": 2, "unit": "mm" },
+									"quantity": { "value": 32, "unit": "unit" }
+								},
+								"colour": [
+									"black"	
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 124,
+						"description": "box - cells x 14 - cell x1",
+						"contents": []
+					},
+					{
+						"class": "location",
+						"id": 125,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "bearing",
+								"variant": [
+									"ball",
+									"tamiya"
+								],
+								"material": [
+									"steel"
+								],
+								"measurement": {
+									"diameterInternal": { "value": 3, "unit": "mm" },
+									"diameterExternal": { "value": 7, "unit": "mm" },
+									"thickness": { "value": 3, "unit": "mm" },
+									"quantity": { "value": 15, "unit": "unit" }
+								},
+								"colour": [
+									"metallic-neutral"	
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 126,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "resitor",
+								"variant": [
+									"potentiometer",
+									"can",
+									"pcb-mount",
+									"through-hole"
+								],
+								"material": [
+									"copper-plated-tin",
+									"aluminium",
+									"plastic"
+								],
+								"measurement": {
+									"resistance": { "value": 5000, "unit": "ohm" },
+									"quantity": { "value": 3, "unit": "unit" }
+								},
+								"colour": [
+									"metallic-neutral",
+									"yellow"	
+								],
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "474-6687"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 127,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "bearing",
+								"variant": [
+									"ball-individual"
+								],
+								"material": [
+									"steel"
+								],
+								"measurement": {
+									"diameter": { "value": 2, "unit": "mm" },
+									"quantity": { "value": 107, "unit": "unit" }
+								},
+								"colour": [
+									"metallic-neutral"
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 128,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"te-connectivity",
+									"micromatch",
+									"4p",
+									"male",
+									"pcb-mount",
+									"through-hole"
+								],
+								"material": [
+									"copper-plated-tin",
+									"plastic"
+								],
+								"measurement": {
+									"quantity": { "value": 4, "unit": "unit" }
+								},
+								"colour": [
+									"metallic-neutral",
+									"red"
+								],
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "719-0318"
+									}
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 129,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "fastener",
+								"variant": [
+									"washer",
+									"crinkle"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"diameterInternal": { "value": 2, "unit": "mm" },
+									"quantity": { "value": 10, "unit": "unit" }
+								},
+								"colour": [
+									"metallic-neutral"
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 130,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "fastener",
+								"variant": [
+									"washer",
+									"flat"
+								],
+								"material": [
+									"ss-304"
+								],
+								"measurement": {
+									"diameterInternal": { "value": 2, "unit": "mm" },
+									"quantity": { "value": "??", "unit": "unit" }
+								},
+								"colour": [
+									"metallic-neutral"
+								]
+							}
+						]
+					}
+				]
+			}	
 		]
 	},
 	{
