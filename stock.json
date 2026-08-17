@@ -28,7 +28,7 @@
 									"diameterInternal": { "value": 4, "unit": "mm" },
 									"quantity": { "value": 73, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"metallic-neutral"	
 								]
 							}
@@ -53,7 +53,7 @@
 									"diameterInternal": { "value": 4, "unit": "mm" },
 									"quantity": { "value": 145, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"metallic-neutral"	
 								]
 							}
@@ -78,7 +78,7 @@
 									"diameterInternal": { "value": 5, "unit": "mm" },
 									"quantity": { "value": 220, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"metallic-neutral"	
 								]
 							}
@@ -103,7 +103,7 @@
 									"diameterInternal": { "value": 4, "unit": "mm" },
 									"quantity": { "value": 3, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"metallic-brass"	
 								]
 							}
@@ -3435,7 +3435,7 @@
 						"colors": [
 							"black"
 						],
-						"note": "Text colour has faded to beige."
+						"note": "Text colors has faded to beige."
 					},
 					{
 						"class": "item",
@@ -4083,7 +4083,7 @@
 									"diameterWire": { "value": 0.2, "unit": "mm" },
 									"quantity": { "value": 19, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"metallic-neutral"	
 								]
 							}
@@ -4110,7 +4110,7 @@
 									"diameter": { "value": 2, "unit": "mm" },
 									"quantity": { "value": 32, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"black"	
 								]
 							}
@@ -4144,7 +4144,7 @@
 									"thickness": { "value": 3, "unit": "mm" },
 									"quantity": { "value": 15, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"metallic-neutral"	
 								]
 							}
@@ -4174,7 +4174,7 @@
 									"resistance": { "value": 5000, "unit": "ohm" },
 									"quantity": { "value": 3, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"metallic-neutral",
 									"yellow"	
 								],
@@ -4206,7 +4206,7 @@
 									"diameter": { "value": 2, "unit": "mm" },
 									"quantity": { "value": 107, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"metallic-neutral"
 								]
 							}
@@ -4236,7 +4236,7 @@
 								"measurement": {
 									"quantity": { "value": 4, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"metallic-neutral",
 									"red"
 								],
@@ -4269,7 +4269,7 @@
 									"diameterInternal": { "value": 2, "unit": "mm" },
 									"quantity": { "value": 10, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
 									"metallic-neutral"
 								]
 							}
@@ -4293,9 +4293,128 @@
 								],
 								"measurement": {
 									"diameterInternal": { "value": 2, "unit": "mm" },
-									"quantity": { "value": "??", "unit": "unit" }
+									"quantity": { "value": 89, "unit": "unit" }
 								},
-								"colour": [
+								"colors": [
+									"metallic-neutral"
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 131,
+						"description": "box - cells x 14 - cell x1",
+						"contents": []
+					},
+					{
+						"class": "location",
+						"id": 132,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "switch",
+								"variant": [
+									"tactile",
+									"actuator-tall"
+								],
+								"material": [
+									"copper-plated-tin",
+									"plastic"
+								],
+								"measurement": {
+									"quantity": { "value": "4", "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "686-6862"
+									}
+								],
+								"colors": [
+									"black",
+									"yellow",
+									"metallic-neutral"
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 133,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "switch",
+								"variant": [
+									"dual-inline-package",
+									"3p1t",
+									"pcb-mount",
+									"smd"
+								],
+								"material": [
+									"copper-plated-tin",
+									"plastic"
+								],
+								"measurement": {
+									"quantity": { "value": "3", "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "682-1005"
+									}
+								],
+								"colors": [
+									"black",
+									"white",
+									"metallic-neutral"
+								]
+							}
+						]
+					},
+					{
+						"class": "location",
+						"id": 134,
+						"description": "box - cells x 14 - cell x1",
+						"contents": []
+					},
+					{
+						"class": "location",
+						"id": 135,
+						"description": "box - cells x 14 - cell x1",
+						"contents": [
+							{
+								"class": "item",
+								"kind": "component",
+								"type": "connector",
+								"variant": [
+									"te-connectivity",
+									"micromatch",
+									"female",
+									"4p",
+									"pcb-mount",
+									"through-hole"
+								],
+								"material": [
+									"copper-plated-tin",
+									"plastic"
+								],
+								"measurement": {
+									"quantity": { "value": "4", "unit": "unit" }
+								},
+								"source": [
+									{
+										"vendor": "rs components",
+										"sku": "680-5129"
+									}
+								],
+								"colors": [
+									"red",
 									"metallic-neutral"
 								]
 							}
