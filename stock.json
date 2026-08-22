@@ -1,6 +1,30 @@
 [
 	{
 		"class": "location",
+		"id": 9000,
+		"description": "snap-lock bag - snack size",
+		"contents": [
+			{
+				"class": "item",
+				"kind": "component",
+				"type": "switch",
+				"variant": [
+					"toggle",
+					"accessory"
+				],
+				"material": [
+					"metal",
+					"plastic",
+					"rubber"
+				],
+				"measurement": {
+					"quantity": { "value": "N/A", "unit": "unit" }
+				}
+			}
+		]
+	},
+	{
+		"class": "location",
 		"id": 0,
 		"description": "storage crate",
 		"contents": [
@@ -1378,6 +1402,9 @@
 								},
 								"colors": [
 									"metallic-neutral"
+								],
+								"project": [
+									"TANKDRONE"
 								]
 							}
 						]
@@ -3667,6 +3694,9 @@
 							"grey-dark",
 							"blue",
 							"yellow"
+						],
+						"project": [
+							"TANKDRONE"
 						]
 					}
 				]
@@ -3695,6 +3725,9 @@
 							"grey-dark",
 							"orange",
 							"metallic-neutral"
+						],
+						"project": [
+							"TANKDRONE"
 						]
 					}
 				]
@@ -4421,30 +4454,529 @@
 						]
 					}
 				]
-			}	
-		]
-	},
-	{
-		"class": "location",
-		"id": 9000,
-		"description": "snap-lock bag - snack size",
-		"contents": [
+			},	
 			{
-				"class": "item",
-				"kind": "component",
-				"type": "switch",
-				"variant": [
-					"toggle",
-					"accessory"
-				],
-				"material": [
-					"metal",
-					"plastic",
-					"rubber"
-				],
-				"measurement": {
-					"quantity": { "value": "N/A", "unit": "unit" }
-				}
+				"class": "location",
+				"id": 136,
+				"description": "box - toting - handy-storage - #40 - dark grey",
+				"contents": []
+			},
+			{
+				"class": "location",
+				"id": 137,
+				"description": "storage box - clear - large",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "motor",
+						"variant": [
+							"stepper",
+							"electric",
+							"dc",
+							"NEMA-17",
+							"hybrid",
+							"4p",
+							"solid-shaft"
+						],
+						"material": [
+							"steel",
+							"aluminium"	
+						],
+						"measurment": {
+							"current": { "value": 1.5, "unit": "Amperes" },
+							"resolutionStep": { "value": 1.8, "unit": "degrees" },
+							"diameterShaft": { "value": 5, "unit": "mm" },
+							"lengthShaft": { "value": 21, "unit": "mm" },
+							"mountingHolePattern": { "value": "31x31", "unit": "mm" },
+							"mountingThread": { "value": 3, "unit": "m3" },
+							"quantity": { "value": 3, "unit": "unit" }
+						},
+						"source": [
+							{
+								"vendor": "stepperonline",
+								"sku": "17HE15-1504S",
+								"url": "www.omc-stepperonline.com"
+							}
+						],
+						"colors": [
+							"metallic-neutral",
+							"black"
+						],
+						"notes": "2x units are boxed.",
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "cable",
+						"variant": [
+							"stepper",
+							"electric",
+							"dc",
+							"4p"
+						],
+						"material": [
+							"copper",
+							"pvc",
+							"plastic"	
+						],
+						"measurment": {
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"red",
+							"black",
+							"green",
+							"blue",
+							"white"
+						],
+						"notes": "One has been modified with a harwin 4p, 100mil connector.",
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 138,
+				"description": "storage box - clear - large",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "module",
+						"variant": [
+							"stepper",
+							"electronic",
+							"dc",
+							"motor-controller",
+							"4p",
+							"a4988",
+							"noisy"
+						],
+						"material": [
+							"fibreglass-pcb",
+							"aluminium",
+							"copper-plated-tin"	
+						],
+						"measurment": {
+							"quantity": { "value": 4, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral",
+							"red",
+							"black"
+						],
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "module",
+						"variant": [
+							"stepper",
+							"electronic",
+							"dc",
+							"motor-controller",
+							"4p",
+							"tmc2208",
+							"smooth",
+							"quiet"
+						],
+						"material": [
+							"fibreglass-pcb",
+							"aluminium",
+							"copper-plated-tin"	
+						],
+						"measurment": {
+							"quantity": { "value": 3, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-blue",
+							"black",
+							"white"
+						],
+						"notes": "1x unit is in a black, metal case.",
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "module",
+						"variant": [
+							"mcu",
+							"arduino",
+							"uno",
+							"atmega"
+						],
+						"material": [
+							"fibreglass-pcb",
+							"plastic"	
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"green",
+							"blue",
+							"white"
+						],
+						"notes": "Standard power connector has been modified and is now a phoenix-contact style 2p.",
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "module",
+						"variant": [
+							"mcu",
+							"dfrobot",
+							"bluno",
+							"v2.0"
+						],
+						"material": [
+							"fibreglass-pcb",
+							"plastic"	
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"green",
+							"blue",
+							"red"
+						],
+						"project": [
+							"TANKDRONE"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "module",
+						"variant": [
+							"arduino",
+							"shield",
+							"cnc"
+						],
+						"material": [
+							"fibreglass-pcb",
+							"plastic"	
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"red",
+							"yellow",
+							"green",
+							"black",
+							"blue"
+						],
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "cable",
+						"variant": [
+							"arduino",
+							"shield",
+							"cnc",
+							"uno",
+							"interconnect",
+							"power",
+							"custom"
+						],
+						"material": [
+							"pvc",
+							"copper",
+							"plastic"	
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"red",
+							"green",
+							"black"
+						],
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "module",
+						"variant": [
+							"joystick",
+							"playstation",
+							"resistive",
+							"1p1t",
+							"no"
+						],
+						"material": [
+							"copper",
+							"plastic",
+							"fibreglass-pcb"	
+						],
+						"measurment": {
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"source": [
+							{
+								"vendor": "jaycar",
+								"sku": "XC4422"
+							}
+						],
+						"notes": "Available cheaper on eBay and other resellers.",
+						"colors": [
+							"black"
+						],
+						"project": [
+							"RC-AIRPLANE"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "connector",
+						"variant": [
+							"panel-mount",
+							"usb-a",
+							"usb-b"
+						],
+						"material": [
+							"aluminium-cast",
+							"plastic",
+							"copper"	
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"metallic-neutral"
+						],
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "switch",
+						"variant": [
+							"limit",
+							"1p2t",
+							"button-actuator"
+						],
+						"material": [
+							"plastic",
+							"copper-plated-tin"	
+						],
+						"measurment": {
+							"voltage": { "value": 250, "unit": "VAC" },
+							"current": { "value": 5, "unit": "Amperes" },
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"source": [
+							{
+								"vendor": "jaycar",
+								"sku": "SM1050"
+							}	
+						],
+						"colors": [
+							"red",
+							"black",
+							"metallic-neutral"
+						],
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 139,
+				"description": "storage box - clear - a5 - cheap shop",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "gt2-drive",
+						"variant": [
+							"wheel",
+							"idler",
+							"smooth"
+						],
+						"material": [
+							"aluminium",
+							"steel"
+						],
+						"measurment": {
+							"quantity": { "value": 4, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral"
+						],
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "gt2-drive",
+						"variant": [
+							"wheel",
+							"idler",
+							"teeth"
+						],
+						"material": [
+							"aluminium",
+							"steel"
+						],
+						"measurment": {
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral"
+						],
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "gt2-drive",
+						"variant": [
+							"wheel",
+							"drive",
+							"teeth"
+						],
+						"material": [
+							"aluminium",
+							"steel"
+						],
+						"measurment": {
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral"
+						],
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "gt2-drive",
+						"variant": [
+							"drive",
+							"teeth",
+							"belt"
+						],
+						"material": [
+							"rubber"
+						],
+						"measurment": {
+							"quantity": { "value": 2, "unit": "m" }
+						},
+						"colors": [
+							"black"
+						],
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "air-fitting",
+						"variant": [
+							"push-to-connect",
+							"90-degree",
+							"connector",
+							"coupling"
+						],
+						"material": [
+							"plastic",
+							"metal"
+						],
+						"measurment": {
+							"size": { "value": 6, "unit": "mm" },
+							"quantity": { "value": 10, "unit": "m" }
+						},
+						"colors": [
+							"black",
+							"blue"
+						],
+						"project": [
+							"LASGRAVV1",
+							"cnc",
+							"laser-cutter",
+							"laser-engraver"
+						]
+					}
+				]
 			}
 		]
 	}
