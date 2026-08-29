@@ -249,7 +249,6 @@
 									"thread": { "value": 4, "unit": "mm" },
 									"tool": { "value": 7, "unit": "mm-hex-external" },
 									"quantity": { "value": 66, "unit": "unit" }
-								}
 								},
 								"colors": [
 									"metallic-neutral",
@@ -1404,7 +1403,9 @@
 									"metallic-neutral"
 								],
 								"project": [
-									"TANKDRONE"
+									"tank",
+									"drone",
+									"rc"
 								]
 							}
 						]
@@ -2654,7 +2655,7 @@
 								"material": [
 									"plastic",
 									"copper-plated-tin"
-								},
+								],
 								"colors": [
 									"metallic-neutral",
 									"white"
@@ -3303,7 +3304,7 @@
 						],
 						"material": [
 							"paper"
-						},
+						],
 						"colors": [
 							"white"
 						]
@@ -3558,7 +3559,7 @@
 							"metal",
 							"plastic"
 						],
-						"measurement": {,
+						"measurement": {
 							"size": { "value": "1/4", "unit": "inch" },
 							"quantity": { "value": 5, "unit": "unit" }
 						},
@@ -3630,7 +3631,7 @@
 						"class": "item",
 						"kind": "component",
 						"type": "connector",
-						"variant": [,
+						"variant": [
 							"TS",
 							"cable-mount"
 						],
@@ -3650,7 +3651,7 @@
 						"class": "item",
 						"kind": "component",
 						"type": "knob",
-						"variant": [,
+						"variant": [
 							"guitar-electric",
 							"guitar-bass-electric"
 						],
@@ -3696,7 +3697,9 @@
 							"yellow"
 						],
 						"project": [
-							"TANKDRONE"
+							"tank",
+							"drone",
+							"rc"
 						]
 					}
 				]
@@ -3727,7 +3730,9 @@
 							"metallic-neutral"
 						],
 						"project": [
-							"TANKDRONE"
+							"tank",
+							"drone",
+							"rc"
 						]
 					}
 				]
@@ -3735,7 +3740,7 @@
 			{
 				"class": "location",
 				"id": 113,
-				"description": "storage box - clear - medium",
+				"description": "storage box - clear - small",
 				"contents": [
 					{
 						"class": "item",
@@ -3763,7 +3768,7 @@
 			{
 				"class": "location",
 				"id": 114,
-				"description": "storage box - clear - medium",
+				"description": "storage box - clear - small",
 				"contents": [
 					{
 						"class": "item",
@@ -3794,7 +3799,7 @@
 			{
 				"class": "location",
 				"id": 115,
-				"description": "storage box - clear - small",
+				"description": "storage box - clear - tiny",
 				"contents": [
 					{
 						"class": "item",
@@ -3823,7 +3828,7 @@
 			{
 				"class": "location",
 				"id": 116,
-				"description": "storage box - clear - small",
+				"description": "storage box - clear - tiny",
 				"contents": [
 					{
 						"class": "item",
@@ -3853,7 +3858,7 @@
 			{
 				"class": "location",
 				"id": 117,
-				"description": "storage box - clear - small",
+				"description": "storage box - clear - tiny",
 				"contents": [
 					{
 						"class": "item",
@@ -3996,7 +4001,7 @@
 			{
 				"class": "location",
 				"id": 118,
-				"description": "storage box - clear - small",
+				"description": "storage box - clear - tiny",
 				"contents": [
 					{
 						"class": "item",
@@ -4017,7 +4022,7 @@
 			{
 				"class": "location",
 				"id": 119,
-				"description": "storage box - clear - small",
+				"description": "storage box - clear - tiny",
 				"contents": [
 					{
 						"class": "item",
@@ -4674,7 +4679,9 @@
 							"red"
 						],
 						"project": [
-							"TANKDRONE"
+							"tank",
+							"drone",
+							"rc"
 						]
 					},
 					{
@@ -4770,7 +4777,8 @@
 							"black"
 						],
 						"project": [
-							"RC-AIRPLANE"
+							"airplane",
+							"rc"
 						]
 					},
 					{
@@ -4974,6 +4982,234 @@
 							"cnc",
 							"laser-cutter",
 							"laser-engraver"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 140,
+				"description": "zip-lock bag",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "hose",
+						"variant": [
+							"flexible"
+						],
+						"material": [
+							"silicone"
+						],
+						"measurment": {
+							"diameterInternal": { "value": 4, "unit": "mm" },
+							"diameterExternal": { "value": 6, "unit": "mm" },
+							"quantity": { "value": 1, "unit": "m" }
+						},
+						"colors": [
+							"black-gloss"
+						],
+						"notes": "Contains offcuts for testing."
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 141,
+				"description": "storage box - clear - small",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "fastener",
+						"variant": [
+							"masonry",
+							"plastic",
+							"wall",
+							"plug"
+						],
+						"material": [
+							"plastic"
+						],
+						"measurment": {
+							"size": { "value": 6, "unit": "mm" },
+							"quantity": { "value": 93, "unit": "unit" }
+						},
+						"colors": [
+							"green"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 142,
+				"description": "storage box - clear - small",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "sub-assembly",
+						"type": "watch-digital",
+						"variant": [
+							"casio",
+							"g-shock",
+							"quartz",
+							"module"
+						],
+						"material": [
+							"plastic",
+							"metal",
+							"glass"
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral",
+							"white"
+						],
+						"notes": "Battery removed to prevent corrosion."
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 143,
+				"description": "storage box - clear - medium",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "consumable",
+						"type": "microscope",
+						"variant": [
+							"slide"
+						],
+						"material": [
+							"glass"
+						],
+						"measurment": {
+							"length": { "value": 76.2, "unit": "mm" },
+							"width": { "value": 25.4, "unit": "mm" },
+							"thickness": { "value": 1.2, "unit": "mm" },
+							"quantity": { "value": 60, "unit": "unit" }
+						},
+						"colors": [
+							"transparent-neutral"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 144,
+				"description": "storage box - clear - medium",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "consumable",
+						"type": "abrasive-paper",
+						"variant": [
+							"wet-or-dry",
+							"p1500"
+						],
+						"material": [
+							"paper",
+							"abrasive"
+						],
+						"measurment": {
+							"length": { "value": 90, "unit": "mm" },
+							"width": { "value": 60, "unit": "mm" },
+							"quantity": { "value": 20, "unit": "unit" }
+						},
+						"colors": [
+							"gray-dark",
+							"blue"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "consumable",
+						"type": "abrasive-paper",
+						"variant": [
+							"wet-or-dry",
+							"p2000"
+						],
+						"material": [
+							"paper",
+							"abrasive"
+						],
+						"measurment": {
+							"length": { "value": 90, "unit": "mm" },
+							"width": { "value": 60, "unit": "mm" },
+							"quantity": { "value": 20, "unit": "unit" }
+						},
+						"colors": [
+							"gray-dark",
+							"blue"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 145,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "project",
+						"type": "prototype",
+						"variant": [
+							"hand",
+							"transformer",
+							"combiner",
+							"insect",
+							"legs"
+						],
+						"material": [
+							"3d-printer-resin-sla-tough",
+							"steel"
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"white",
+							"black"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 146,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "fastener",
+						"variant": [
+							"insert",
+							"thread",
+							"sonic-lok",
+							"heat-set"
+						],
+						"material": [
+							"brass"
+						],
+						"measurment": {
+							"thread": { "value": 2, "unit": "mm" },
+							"quantity": { "value": 130, "unit": "unit" }
+						},
+						"source": [
+							{
+								"vendor": "psm fasteners",
+								"sku": "SLBM2"
+							}
+						],
+						"colors": [
+							"metallic-brass"
 						]
 					}
 				]
