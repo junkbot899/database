@@ -5213,6 +5213,469 @@
 						]
 					}
 				]
+			},
+			{
+				"class": "location",
+				"id": 147,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "fastener",
+						"variant": [
+							"insert",
+							"thread",
+							"sonic-lok",
+							"heat-set"
+						],
+						"material": [
+							"brass"
+						],
+						"measurment": {
+							"thread": { "value": 3, "unit": "mm" },
+							"quantity": { "value": 197, "unit": "unit" }
+						},
+						"source": [
+							{
+								"vendor": "psm fasteners",
+								"sku": "SLBM3"
+							}
+						],
+						"colors": [
+							"metallic-brass"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 148,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "fastener",
+						"variant": [
+							"insert",
+							"thread",
+							"sonic-lok",
+							"heat-set"
+						],
+						"material": [
+							"brass"
+						],
+						"measurment": {
+							"thread": { "value": 4, "unit": "mm" },
+							"quantity": { "value": 76, "unit": "unit" }
+						},
+						"source": [
+							{
+								"vendor": "psm fasteners",
+								"sku": "SLBM4"
+							}
+						],
+						"colors": [
+							"metallic-brass"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 149,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "kit",
+						"type": "battery",
+						"variant": [
+							"li-po",
+							"1s"
+						],
+						"material": [
+							"li-po",
+							"fibreglass-pcb",
+							"plastic",
+							"silicone"
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"blue",
+							"white",
+							"metallic-neutral"
+						],
+						"notes": "FreeTronics::usblipo Qty x2, LiPo::1s::150mAh Qty x1, 3D-Printed base Qty x1"
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 150,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "kit",
+						"type": "prototype",
+						"variant": [
+							"buzzer",
+							"analogue"
+						],
+						"material": [
+							"fibreglass-pcb",
+							"plastic"
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"red",
+							"white"
+						],
+						"project": [
+							"university",
+							"QUT",
+							"assignment",
+							"egb240"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 151,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "push-bike",
+						"variant": [
+							"termination",
+							"gear-cable-outer",
+							"brake-cable-outer",
+							"cable-inner"
+						],
+						"material": [
+							"plastic"
+						],
+						"measurment": {
+							"quantity": { "value": ??, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"metallic-neutral"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 152,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "diode",
+						"variant": [
+							"zener",
+							"smd",
+							"mini-melf"
+						],
+						"material": [
+							"glass",
+							"metal",
+							"semi-conductor"
+						],
+						"measurment": {
+							"voltageReverseRepetitiveMaximum": { "value": 8.2, "unit": "Volts" },
+							"quantity": { "value": 27, "unit": "unit" }
+						},
+						"colors": [
+							"orange",
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "diode",
+						"variant": [
+							"common-cathode",
+							"smd",
+							"sot23-3"
+						],
+						"material": [
+							"plastic",
+							"metal",
+							"semi-conductor"
+						],
+						"measurment": {
+							"quantity": { "value": 5, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"metallic-neutral"
+						],
+						"source": [
+							{
+								"vendor": "rs components",
+								"sku": "815-1232"
+							}
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "transistor",
+						"variant": [
+							"NPN",
+							"smd",
+							"sot23-3"
+						],
+						"material": [
+							"plastic",
+							"metal",
+							"semi-conductor"
+						],
+						"measurment": {
+							"quantity": { "value": 8, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"metallic-neutral"
+						],
+						"source": [
+							{
+								"vendor": "jaycar",
+								"sku": "ZT2136"
+							}
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "LED",
+						"variant": [
+							"white",
+							"smd",
+							"4-PLCC"
+						],
+						"material": [
+							"plastic",
+							"metal",
+							"semi-conductor"
+						],
+						"measurment": {
+							"quantity": { "value": 11, "unit": "unit" }
+						},
+						"colors": [
+							"white",
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "LED",
+						"variant": [
+							"white",
+							"smd",
+							"6-PLCC"
+						],
+						"material": [
+							"plastic",
+							"metal",
+							"semi-conductor"
+						],
+						"measurment": {
+							"quantity": { "value": 11, "unit": "unit" }
+						},
+						"colors": [
+							"white",
+							"metallic-neutral"
+						],
+						"source": [
+							{
+								"vendor": "rs components",
+								"sku": "835-2898"
+							}
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "transistor",
+						"variant": [
+							"PNP",
+							"smd",
+							"sot23-3"
+						],
+						"material": [
+							"plastic",
+							"metal",
+							"semi-conductor"
+						],
+						"measurment": {
+							"current": { "value": 0.5, "unit": "Amperes" },
+							"quantity": { "value": 14, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"metallic-neutral"
+						],
+						"source": [
+							{
+								"vendor": "rs components",
+								"sku": "216-9404"
+							}
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "LED",
+						"variant": [
+							"RGB",
+							"smd",
+							"6-PLCC"
+						],
+						"material": [
+							"plastic",
+							"metal",
+							"semi-conductor"
+						],
+						"measurment": {
+							"quantity": { "value": 69, "unit": "unit" }
+						},
+						"colors": [
+							"white",
+							"metallic-neutral"
+						],
+						"source": [
+							{
+								"vendor": "digikey",
+								"sku": "475-2899-1-ND"
+							}
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "fuse",
+						"variant": [
+							"resettable",
+							"smd",
+							"2018"
+						],
+						"material": [
+							"metal"
+						],
+						"measurment": {
+							"quantity": { "value": 5, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"metallic-gold"
+						],
+						"source": [
+							{
+								"vendor": "rs components",
+								"sku": "691-7591"
+							}
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "FET",
+						"variant": [
+							"P-Type",
+							"smd",
+							"sot23-3"
+						],
+						"material": [
+							"metal",
+							"plastic",
+							"semi-conductor"
+						],
+						"measurment": {
+							"quantity": { "value": 3, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"metallic-neutral"
+						],
+						"source": [
+							{
+								"vendor": "digikey",
+								"sku": "BSS315PH6327XTSA1CT-ND"
+							}
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "switch",
+						"variant": [
+							"smd",
+							"1p1t",
+							"tactile",
+							"momentary"
+						],
+						"material": [
+							"metal"
+						],
+						"measurment": {
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral"
+						],
+						"source": [
+							{
+								"vendor": "rs components",
+								"sku": "758-2076"
+							}
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "diode",
+						"variant": [
+							"smd",
+							"mini-melf",
+							"zener"
+						],
+						"material": [
+							"metal",
+							"glass",
+							"semi-conductor"
+						],
+						"measurment": {
+							"voltageReverseRepetitiveMaximum": { "value": 10, "unit": "Volts" },
+							"quantity": { "value": 10, "unit": "unit" }
+						},
+						"colors": [
+							"orange",
+							"metallic-neutral"
+						],
+						"source": [
+							{
+								"vendor": "element-14",
+								"sku": "108-1361"
+							}
+						]
+					}
+				]
 			}
 		]
 	}
