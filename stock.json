@@ -4760,12 +4760,6 @@
 			},	
 			{
 				"class": "location",
-				"id": 136,
-				"description": "box - toting - handy-storage - #40 - dark grey",
-				"contents": []
-			},
-			{
-				"class": "location",
 				"id": 137,
 				"description": "storage box - clear - large",
 				"contents": [
@@ -6475,6 +6469,386 @@
 								"sku": "YG2784"
 							}
 						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 157,
+				"description": "capsule container - herbs of gold - regular",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "fastener",
+						"variant": [
+							"css",
+							"wood"
+						],
+						"material": [
+							"metal"
+						],
+						"measurment": {
+							"thread": { "value": "8-10", "unit": "G" },
+							"length": { "value": 60, "unit": "mm" },
+							"tool": { "value": 2, "unit": "square" },
+							"quantity": { "value": 56, "unit": "unit" }
+						},
+						"colors": [
+							"grey-dark"
+						],
+						"source": [
+							{
+								"vendor": "zenith",
+								"sku": "CSC9460"
+							}
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 158,
+				"description": "capsule container - herbs of gold - regular",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "hardware",
+						"variant": [
+							"woodwork",
+							"shelf",
+							"support",
+							"pin",
+							"rubberised",
+							"suction-cap",
+							"glass"
+						],
+						"material": [
+							"metal",
+							"rubber"
+						],
+						"measurment": {
+							"diameterPin": { "value": 5, "unit": "mm" },
+							"quantity": { "value": 10, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral",
+							"translucent-blue"
+						],
+						"source": [
+							{
+								"vendor": "task master",
+								"sku": "12175"
+							}
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 159,
+				"description": "storage box - clear - snall",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "hardware",
+						"variant": [
+							"metalwork",
+							"end-cap",
+							"rhs"
+						],
+						"material": [
+							"plastic"
+						],
+						"measurment": {
+							"size": { "value": "50x25", "unit": "mm" },
+							"quantity": { "value": 3, "unit": "unit" }
+						},
+						"colors": [
+							"black"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 160,
+				"description": "jar - plastic - peanut butter - aldi",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "consumable",
+						"type": "abrasive",
+						"variant": [
+							"sandpaper",
+							"roll",
+							"p600",
+							"wet-or-dry"
+						],
+						"material": [
+							"paper",
+							"abrasives"
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "roll" }
+						},
+						"colors": [
+							"black"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 161,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "consumable",
+						"type": "wax",
+						"variant": [
+							"seal",
+							"pellet",
+							"envelope",
+							"letter"
+						],
+						"material": [
+							"wax"
+						],
+						"measurment": {
+							"quantity": { "value": 114, "unit": "unit" }
+						},
+						"colors": [
+							"black",
+							"metallic-neutral",
+							"blue-navy",
+							"blue",
+							"white",
+							"purple-light"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 162,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "fastener",
+						"variant": [
+							"insert",
+							"thread",
+							"sonic-lok",
+							"heat-set"
+						],
+						"material": [
+							"brass"
+						],
+						"measurment": {
+							"thread": { "value": 6, "unit": "mm" },
+							"quantity": { "value": 103, "unit": "unit" }
+						},
+						"source": [
+							{
+								"vendor": "psm fasteners",
+								"sku": "SLBM6"
+							}
+						],
+						"colors": [
+							"metallic-brass"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 163,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "fastener",
+						"variant": [
+							"insert",
+							"thread",
+							"sonic-lok",
+							"heat-set"
+						],
+						"material": [
+							"brass"
+						],
+						"measurment": {
+							"thread": { "value": 5, "unit": "mm" },
+							"quantity": { "value": 98, "unit": "unit" }
+						},
+						"source": [
+							{
+								"vendor": "psm fasteners",
+								"sku": "SLBM5"
+							}
+						],
+						"colors": [
+							"metallic-brass"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 164,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "consumable",
+						"variant": [
+							"welder",
+							"binzel",
+							"torch",
+							"nozzle",
+							"spring"
+						],
+						"material": [
+							"metal"
+						],
+						"measurment": {
+							"size": { "value": 15, "unit": "Torch-Binzel" },
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "consumable",
+						"variant": [
+							"welder",
+							"binzel",
+							"torch",
+							"nozzle",
+							"barrel"
+						],
+						"material": [
+							"brass",
+							"metal"
+						],
+						"measurment": {
+							"size": { "value": 15, "unit": "Torch-Binzel" },
+							"quantity": { "value": 2, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral",
+							"metallic-brass"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 165,
+				"description": "storage box - systema - rectangular - tiny - shallow",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "audio-musical",
+						"variant": [
+							"guitar",
+							"pick"
+						],
+						"material": [
+							"plastic"
+						],
+						"measurment": {
+							"quantity": { "value": "lots", "unit": "unit" }
+						},
+						"colors": [
+							"varied"
+						]
+					},
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "audio-musical",
+						"variant": [
+							"drum",
+							"key"
+						],
+						"material": [
+							"metal-plated-chrome"
+						],
+						"measurment": {
+							"quantity": { "value": 1, "unit": "unit" }
+						},
+						"colors": [
+							"metallic-neutral-polished"
+						]
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 136,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "component",
+						"type": "case",
+						"variant": [
+							"battery",
+							"camera",
+							"canon",
+							"NB-4L"
+						],
+						"material": [
+							"plastic"
+						],
+						"measurement": {
+							"quantity": { "value": 5, "unit": "unit" }
+						}
+					}
+				]
+			},
+			{
+				"class": "location",
+				"id": 137,
+				"description": "storage box - clear - tiny",
+				"contents": [
+					{
+						"class": "item",
+						"kind": "consumable",
+						"type": "horticulture",
+						"variant": [
+							"seed",
+							"tree",
+							"cypress",
+							"mediterranean",
+							"cupressus sempervirens"
+						],
+						"material": [
+							"organic"
+						],
+						"measurement": {
+							"quantity": { "value": ">10", "unit": "unit" }
+						},
+						"source": [
+							{
+								"vendor": "living green and feeling seedy",
+								"sku": "CUPSEMP"
+							}
+						],
+						"notes": "Propagation notes available at: livinggreenandfeelingseedy.com | jazz@livinggreenandfeelingseedy.com | Cupressus thrive in a well-drained loamy or peaty soil with a pH of 6 or lower. Bhutan Cypress prefers cooler wetter summers than other members of this genus. They all tolerate poor sandy soils. Propagation: Pre-treatment: Three months cold stratification can improve germination rates. Sow in late Winter in a cold frame and only just cover the seed. The seed usually germinates in 1 - 2 months at 20°C. The seedlings are very subject to damping off so should be watered with care and kept well ventilated. When they are large enough to handle, prick the seedlings out into individual pots and grow them on in a sheltered position for at least their first winter. Plant them out into their permanent positions in late spring or early summer, after the last expected frosts. The seed can store for several years."
 					}
 				]
 			}
